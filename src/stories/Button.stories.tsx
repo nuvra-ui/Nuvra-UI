@@ -12,11 +12,11 @@ export const ButtonExample: Story = {
   argTypes: {
     variant: {
       control: "inline-radio",
-      options: ["default"],
+      options: ["default", "link", "ghost"],
     },
     size: {
       control: "inline-radio",
-      options: ["default"],
+      options: ["default", "sm", "lg", "icon"],
     },
     children: {
       control: "text",
