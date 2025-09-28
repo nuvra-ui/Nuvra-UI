@@ -9,5 +9,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const ButtonExample: Story = {
-  args: {},
+  args: {
+    children: "Button",
+  },
 };
