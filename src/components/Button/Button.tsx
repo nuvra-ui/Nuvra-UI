@@ -1,7 +1,16 @@
 import type React from "react";
+import { twMerge } from "tailwind-merge";
 
-const Button = ({ children, ...props }: React.ComponentProps<"button">) => {
-  return <button {...props}>{children}</button>;
+const Button = ({
+  className,
+  children,
+  ...props
+}: React.ComponentProps<"button">) => {
+  return (
+    <button className={twMerge(className)} {...props}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;
