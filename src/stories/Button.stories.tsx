@@ -16,7 +16,7 @@ export const ButtonExample: Story = {
     },
     size: {
       control: "inline-radio",
-      options: ["default"],
+      options: ["default", "sm", "lg"],
     },
     children: {
       control: "text",
