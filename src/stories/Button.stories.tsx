@@ -9,7 +9,17 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const ButtonExample: Story = {
-  args: {
-    children: "Button",
+  argTypes: {
+    variant: {
+      control: "inline-radio",
+      options: ["default"],
+    },
+    size: {
+      control: "inline-radio",
+      options: ["default"],
+    },
+    children: {
+      control: "text",
+    },
   },
 };
