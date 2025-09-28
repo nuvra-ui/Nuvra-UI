@@ -2,13 +2,13 @@ import { cva, type VariantProps } from "class-variance-authority";
 import type React from "react";
 import { twMerge } from "tailwind-merge";
 
-const buttonVariants = cva("rounded-lg", {
+const buttonVariants = cva("rounded-lg flex items-center justify-center", {
   variants: {
     variant: {
-      default: "bg-black text-white hover:bg-black/90",
+      default: "bg-black text-white hover:bg-black/85",
     },
     size: {
-      default: "px-4 py-2",
+      default: "h-9 px-4 py-2",
     },
   },
   defaultVariants: {
