@@ -6,6 +6,7 @@ const buttonVariants = cva("rounded-lg flex items-center justify-center", {
   variants: {
     variant: {
       default: "bg-black text-white hover:bg-black/85",
+      link: "bg-transparent text-black hover:underline underline-offset-3",
     },
     size: {
       default: "h-9 px-4 py-2",
