@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import Input from "../components/Input/Input";
+import { Input } from "../components/Input/Input";
 
 const meta = {
   component: Input,
@@ -8,4 +8,9 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const InputExample: Story = {};
+export const InputExample: Story = {
+  args: {
+    placeholder: "Text Input...",
+    type: "text",
+  },
+};
