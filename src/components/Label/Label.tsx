@@ -1,5 +1,5 @@
 const Label = () => {
-  return <div>Label</div>;
+  return <label>Label</label>;
 };
 
-export default Label;
+export { Label };
