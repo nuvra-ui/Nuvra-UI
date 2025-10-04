@@ -10,10 +10,14 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const LabelExample: Story = {
+  args: {
+    children: "Label",
+  },
+
   render: (args) => (
     <>
       <Label {...args} htmlFor="Input">
-        Label
+        {args.children}
       </Label>
       <Input placeholder="Placeholder" id="Input" />
     </>
