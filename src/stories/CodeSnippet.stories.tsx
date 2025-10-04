@@ -14,5 +14,9 @@ export const CodeSnippetExample: Story = {
       control: "inline-radio",
       options: ["default", "dark"],
     },
+    size: {
+      control: "inline-radio",
+      options: ["default", "sm", "lg"],
+    },
   },
 };
