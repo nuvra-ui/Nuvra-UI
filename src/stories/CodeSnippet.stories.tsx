@@ -19,4 +19,11 @@ export const CodeSnippetExample: Story = {
       options: ["default", "sm", "lg"],
     },
   },
+
+  //Default Value for the Component
+  args: {
+    children: 'console.log("Hello, world!")',
+    variant: "default",
+    size: "default",
+  },
 };

@@ -23,6 +23,7 @@ const CodeSnippet = ({
   className,
   variant,
   size,
+  children,
   ...props
 }: React.ComponentProps<"pre"> & VariantProps<typeof codeSnippetVariants>) => {
   return (
@@ -30,7 +31,7 @@ const CodeSnippet = ({
       className={twMerge(codeSnippetVariants({ variant, size }), className)}
       {...props}
     >
-      console.log("Hello, world!")
+      {children}
     </pre>
   );
 };
