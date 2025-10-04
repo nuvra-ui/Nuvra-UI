@@ -6,7 +6,10 @@ const Label = ({
   ...props
 }: React.ComponentProps<"label">) => {
   return (
-    <label className={twMerge("text-sm text-black flex", className)} {...props}>
+    <label
+      className={twMerge("text-sm text-primary flex", className)}
+      {...props}
+    >
       {children}
     </label>
   );
