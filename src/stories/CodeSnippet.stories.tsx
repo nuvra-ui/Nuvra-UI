@@ -1,0 +1,15 @@
+import type { Meta, StoryObj } from "@storybook/react-vite";
+import { CodeSnippet } from "../components/CodeSnippet/CodeSnippet";
+
+const meta = {
+  component: CodeSnippet,
+} satisfies Meta<typeof CodeSnippet>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const CodeSnippetExample: Story = {
+  args: {
+    variant: "default",
+  },
+};
