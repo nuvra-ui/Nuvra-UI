@@ -1,7 +1,7 @@
 name: Publish Nuvra-UI Package to NPM
 on:
   release:
-    types: [published]
+    types: [created]
 jobs:
   publish:
     runs-on: ubuntu-latest
