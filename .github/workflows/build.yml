@@ -1,4 +1,4 @@
-name: Build Lucent-UI Package
+name: Build Nuvra-UI Package
 
 on:
   push:

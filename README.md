@@ -1,6 +1,6 @@
-# Lucent-UI
+# Nuvra-UI
 
-Lucent-UI is a clean and lightweight component library built with TailwindCSS.
+Nuvra-UI is a clean and lightweight component library built with TailwindCSS.
 
 ## ✨ Features
 
