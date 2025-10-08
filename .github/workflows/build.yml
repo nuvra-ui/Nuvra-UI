@@ -1,4 +1,4 @@
-name: Build Zenith-UI Package
+name: Build Nuvra-UI Package
 
 on:
   push:
