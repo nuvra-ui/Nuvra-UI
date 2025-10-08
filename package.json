@@ -1,6 +1,5 @@
 {
-  "name": "ui",
-  "private": true,
+  "name": "@nuvra-ui/ui",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
