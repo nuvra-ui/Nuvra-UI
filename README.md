@@ -1,6 +1,6 @@
-# Zenith-UI
+# Lucent-UI
 
-Zenith-UI is a clean and lightweight component library built with TailwindCSS.
+Lucent-UI is a clean and lightweight component library built with TailwindCSS.
 
 ## ✨ Features
 

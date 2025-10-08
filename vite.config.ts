@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.ts",
-      name: "zenith-ui",
-      fileName: "zenith-ui",
+      name: "lucent-ui",
+      fileName: "lucent-ui",
     },
   },
 });
