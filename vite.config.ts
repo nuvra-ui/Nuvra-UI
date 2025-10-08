@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.ts",
-      name: "lucent-ui",
-      fileName: "lucent-ui",
+      name: "nuvra-ui",
+      fileName: "nuvra-ui",
     },
   },
 });
