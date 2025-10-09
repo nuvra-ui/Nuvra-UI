@@ -2,6 +2,14 @@
   "name": "@nuvra-ui/ui",
   "version": "0.0.1",
   "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "tailwindcss",
+    "component-libary"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
