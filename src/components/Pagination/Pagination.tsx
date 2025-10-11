@@ -4,11 +4,12 @@ const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => {
   return <nav className={twMerge("", className)} {...props} />;
 };
 
-const PaginationContent = ({
-  className,
-  ...props
-}: React.ComponentProps<"ul">) => {
-  return <ul className={twMerge("", className)} {...props} />;
+const PaginationContent = ({ ...props }: React.ComponentProps<"ul">) => {
+  return <ul {...props} />;
 };
 
-export { Pagination, PaginationContent };
+const PaginationItem = ({ ...props }) => {
+  return <li {...props} />;
+};
+
+export { Pagination, PaginationContent, PaginationItem };
