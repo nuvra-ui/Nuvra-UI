@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Pagination } from "../components/Pagination/Pagination";
+import {
+  Pagination,
+  PaginationContent,
+} from "../components/Pagination/Pagination";
 
 const meta = {
   component: Pagination,
@@ -13,7 +16,9 @@ export const PaginationExample: Story = {
 
   render: (args) => (
     <>
-      <Pagination {...args} />
+      <Pagination {...args}>
+        <PaginationContent>Hello World</PaginationContent>
+      </Pagination>
     </>
   ),
 };
