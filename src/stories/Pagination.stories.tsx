@@ -5,6 +5,7 @@ import {
   PaginationItem,
   PaginationNext,
   PaginationPrevious,
+  PaginationLink,
 } from "../components/Pagination/Pagination";
 
 const meta = {
@@ -22,10 +23,19 @@ export const PaginationExample: Story = {
       <Pagination {...args}>
         <PaginationContent>
           <PaginationItem>
-            <PaginationPrevious />
+            <PaginationPrevious href="#" />
           </PaginationItem>
           <PaginationItem>
-            <PaginationNext />
+            <PaginationLink href="#">1</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="#">2</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="#">3</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationNext href="#" />
           </PaginationItem>
         </PaginationContent>
       </Pagination>
