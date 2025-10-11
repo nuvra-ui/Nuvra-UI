@@ -12,4 +12,18 @@ const PaginationItem = ({ ...props }) => {
   return <li {...props} />;
 };
 
-export { Pagination, PaginationContent, PaginationItem };
+const PaginationNext = ({ ...props }: React.ComponentProps<"a">) => {
+  return <a {...props}>Pagination Next</a>;
+};
+
+const PaginationPrevious = ({ ...props }: React.ComponentProps<"a">) => {
+  return <a {...props}>Pagination Previous</a>;
+};
+
+export {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationNext,
+  PaginationPrevious,
+};

@@ -3,6 +3,8 @@ import {
   Pagination,
   PaginationContent,
   PaginationItem,
+  PaginationNext,
+  PaginationPrevious,
 } from "../components/Pagination/Pagination";
 
 const meta = {
@@ -19,7 +21,12 @@ export const PaginationExample: Story = {
     <>
       <Pagination {...args}>
         <PaginationContent>
-          <PaginationItem>Hello World</PaginationItem>
+          <PaginationItem>
+            <PaginationPrevious />
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationNext />
+          </PaginationItem>
         </PaginationContent>
       </Pagination>
     </>
