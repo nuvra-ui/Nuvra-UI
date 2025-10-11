@@ -5,7 +5,7 @@ const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => {
 };
 
 const PaginationContent = ({ ...props }: React.ComponentProps<"ul">) => {
-  return <ul {...props} />;
+  return <ul className="flex flex-row items-center gap-1" {...props} />;
 };
 
 const PaginationItem = ({ ...props }) => {
