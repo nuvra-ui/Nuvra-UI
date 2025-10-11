@@ -12,12 +12,18 @@ const PaginationItem = ({ ...props }) => {
   return <li {...props} />;
 };
 
-const PaginationNext = ({ ...props }: React.ComponentProps<"a">) => {
-  return <a {...props}>Pagination Next</a>;
+const PaginationLink = ({ ...props }: React.ComponentProps<"a">) => {
+  return <a {...props} />;
+};
+
+const PaginationNext = ({
+  ...props
+}: React.ComponentProps<typeof PaginationLink>) => {
+  return <PaginationLink {...props}>{">"}</PaginationLink>;
 };
 
 const PaginationPrevious = ({ ...props }: React.ComponentProps<"a">) => {
-  return <a {...props}>Pagination Previous</a>;
+  return <PaginationLink {...props}>{"<"}</PaginationLink>;
 };
 
 export {
