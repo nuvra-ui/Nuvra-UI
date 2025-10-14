@@ -21,7 +21,7 @@ const PaginationItem = ({ ...props }) => {
 };
 
 const PaginationLink = ({ ...props }: React.ComponentProps<"a">) => {
-  return <Link {...props} />;
+  return <Link {...props} href="#" />;
 };
 
 const PaginationNext = ({
