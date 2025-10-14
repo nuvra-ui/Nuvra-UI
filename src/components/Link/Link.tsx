@@ -1,8 +1,15 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
-const Link = ({ children }: React.ComponentProps<"button">) => {
+const Link = ({ className, children, ...props }: React.ComponentProps<"a">) => {
   return (
-    <a className="bg-transparent text-primary hover:underline underline-offset-3">
+    <a
+      className={twMerge(
+        "bg-transparent text-primary hover:underline underline-offset-3",
+        className
+      )}
+      {...props}
+    >
       {children}
     </a>
   );
