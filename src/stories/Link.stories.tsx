@@ -8,7 +8,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const ButtonExample: Story = {
+export const LinkExample: Story = {
   args: {
     children: "Link",
   },
