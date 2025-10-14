@@ -14,19 +14,27 @@ const PaginationItem = ({ ...props }) => {
 };
 
 const PaginationLink = ({ ...props }: React.ComponentProps<"button">) => {
-  return <Button size="icon" {...props} />;
+  return <Button size="icon" variant="link" {...props} />;
 };
 
 const PaginationNext = ({
   ...props
 }: React.ComponentProps<typeof PaginationLink>) => {
-  return <Button {...props}>{"Next >"}</Button>;
+  return (
+    <Button variant="link" {...props}>
+      {"Next >"}
+    </Button>
+  );
 };
 
 const PaginationPrevious = ({
   ...props
 }: React.ComponentProps<typeof PaginationLink>) => {
-  return <Button {...props}>{"< Previous"}</Button>;
+  return (
+    <Button variant="link" {...props}>
+      {"< Previous"}
+    </Button>
+  );
 };
 
 export {
