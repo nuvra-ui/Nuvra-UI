@@ -1,29 +1,34 @@
 import { twMerge } from "tailwind-merge";
-import Button from "../Button/Button";
+import { Link } from "../Link/Link";
 
 const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => {
   return <nav className={twMerge("", className)} {...props} />;
 };
 
 const PaginationContent = ({ ...props }: React.ComponentProps<"ul">) => {
-  return <ul className="flex flex-row w-full items-center gap-1" {...props} />;
+  return (
+    <ul
+      className="flex flex-row w-full justify-center items-center gap-4"
+      {...props}
+    />
+  );
 };
 
 const PaginationItem = ({ ...props }) => {
   return <li {...props} />;
 };
 
-const PaginationLink = ({ ...props }: React.ComponentProps<"button">) => {
-  return <Button size="icon" variant="link" {...props} />;
+const PaginationLink = ({ ...props }: React.ComponentProps<"a">) => {
+  return <Link {...props} />;
 };
 
 const PaginationNext = ({
   ...props
 }: React.ComponentProps<typeof PaginationLink>) => {
   return (
-    <Button variant="link" {...props}>
-      {"Next >"}
-    </Button>
+    <PaginationLink {...props} className="ml-4">
+      Next
+    </PaginationLink>
   );
 };
 
@@ -31,9 +36,9 @@ const PaginationPrevious = ({
   ...props
 }: React.ComponentProps<typeof PaginationLink>) => {
   return (
-    <Button variant="link" {...props}>
-      {"< Previous"}
-    </Button>
+    <PaginationLink {...props} className="mr-4">
+      Back
+    </PaginationLink>
   );
 };
 
