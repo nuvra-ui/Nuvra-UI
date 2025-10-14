@@ -12,7 +12,7 @@ export const ButtonExample: Story = {
   argTypes: {
     variant: {
       control: "inline-radio",
-      options: ["default", "link", "ghost"],
+      options: ["default", "ghost"],
     },
     size: {
       control: "inline-radio",
