@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: "src/index.ts",
       name: "nuvra-ui",
-      fileName: "nuvra-ui",
+      fileName: "index",
     },
   },
 });
