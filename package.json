@@ -10,7 +10,7 @@
     "tailwindcss",
     "component-libary"
   ],
-  "files": ["dist"],
+  "files": ["dist", "src"],
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
