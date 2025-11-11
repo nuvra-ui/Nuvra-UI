@@ -1,0 +1,20 @@
+{
+  "Button": {
+    "Path": "src/Button/Button.tsx"
+  },
+  "CodeSnippet": {
+    "Path": "src/CodeSnippet/CodeSnippet.tsx"
+  },
+  "Input": {
+    "Path": "src/Input/Input.tsx"
+  },
+  "Label": {
+    "Path": "src/Label/Label.tsx"
+  },
+  "Link": {
+    "Path": "src/Link/Link.tsx"
+  },
+  "Pagination": {
+    "Path": "src/Pagination/Pagination.tsx"
+  }
+}
