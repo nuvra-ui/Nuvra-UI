@@ -1,20 +1,20 @@
 {
   "Button": {
-    "Path": "src/Button/Button.tsx"
+    "Path": "src/Button"
   },
   "CodeSnippet": {
-    "Path": "src/CodeSnippet/CodeSnippet.tsx"
+    "Path": "src/CodeSnippet"
   },
   "Input": {
-    "Path": "src/Input/Input.tsx"
+    "Path": "src/Input"
   },
   "Label": {
-    "Path": "src/Label/Label.tsx"
+    "Path": "src/Label"
   },
   "Link": {
-    "Path": "src/Link/Link.tsx"
+    "Path": "src/Link"
   },
   "Pagination": {
-    "Path": "src/Pagination/Pagination.tsx"
+    "Path": "src/Pagination"
   }
 }
