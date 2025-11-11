@@ -6,7 +6,7 @@ import {
   PaginationNext,
   PaginationPrevious,
   PaginationLink,
-} from "../components/Pagination/Pagination";
+} from "../Pagination/Pagination";
 
 const meta = {
   component: Pagination,

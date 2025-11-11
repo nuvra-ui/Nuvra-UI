@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { CodeSnippet } from "../components/CodeSnippet/CodeSnippet";
+import { CodeSnippet } from "../CodeSnippet/CodeSnippet";
 
 const meta = {
   component: CodeSnippet,
