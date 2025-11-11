@@ -1,0 +1,13 @@
+{
+  "name": "Label",
+  "description": "",
+  "author": "",
+  "version": "",
+  "tags": [],
+  "category": "",
+  "files": [
+    {
+      "path": "src/Label/Label.tsx"
+    }
+  ]
+}

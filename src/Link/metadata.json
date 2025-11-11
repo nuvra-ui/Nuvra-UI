@@ -1,0 +1,13 @@
+{
+  "name": "Link",
+  "description": "",
+  "author": "",
+  "version": "",
+  "tags": [],
+  "category": "",
+  "files": [
+    {
+      "path": "src/Link/Link.tsx"
+    }
+  ]
+}
