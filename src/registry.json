@@ -1,20 +1,20 @@
 {
   "Button": {
-    "Path": "src/Button"
+    "path": "src/Button"
   },
   "CodeSnippet": {
-    "Path": "src/CodeSnippet"
+    "path": "src/CodeSnippet"
   },
   "Input": {
-    "Path": "src/Input"
+    "path": "src/Input"
   },
   "Label": {
-    "Path": "src/Label"
+    "path": "src/Label"
   },
   "Link": {
-    "Path": "src/Link"
+    "path": "src/Link"
   },
   "Pagination": {
-    "Path": "src/Pagination"
+    "path": "src/Pagination"
   }
 }
