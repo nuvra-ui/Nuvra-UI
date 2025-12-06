@@ -10,6 +10,6 @@ RUN npm run build-storybook
 
 FROM nginx:alpine
 
-COPY --from=build /app/storybook-static /usr/share/nginx/html
+COPY --from=build /app/storybook-static /usr/share/nginx/html/docs
 
 CMD ["nginx", "-g", "daemon off;"]
