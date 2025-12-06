@@ -10,7 +10,10 @@
     "tailwindcss",
     "component-libary"
   ],
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",
@@ -20,11 +23,11 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^9.1.8",
-    "@storybook/react-vite": "^9.1.8",
+    "@storybook/addon-docs": "^10.1.4",
+    "@storybook/react-vite": "^10.1.4",
     "@tailwindcss/vite": "^4.1.13",
     "class-variance-authority": "^0.7.1",
-    "storybook": "^9.1.8",
+    "storybook": "^10.1.4",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.13",
     "typescript": "~5.8.3",
