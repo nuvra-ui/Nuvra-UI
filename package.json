@@ -9,7 +9,7 @@
     "ui",
     "components",
     "tailwindcss",
-    "component-libary"
+    "component-library"
   ],
   "scripts": {
     "dev:react": "lerna run dev --scope react",
@@ -18,9 +18,7 @@
     "preview:react": "lerna run preview --scope react",
     "build-storybook:react": "lerna run build-storybook --scope react"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "dependencies": {},
   "devDependencies": {
     "lerna": "^9.0.3"
