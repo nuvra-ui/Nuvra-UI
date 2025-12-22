@@ -1,6 +1,16 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@nuvra-ui/nuvra-ui",
+  "license": "MIT",
+  "version": "0.1.2",
+  "keywords": [
+    "react",
+    "vue",
+    "cross-framework",
+    "ui",
+    "components",
+    "tailwindcss",
+    "component-libary"
+  ],
   "workspaces": [
     "packages/*"
   ],
