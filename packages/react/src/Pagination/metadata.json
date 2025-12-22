@@ -1,0 +1,13 @@
+{
+  "name": "Pagination",
+  "description": "",
+  "author": "",
+  "version": "",
+  "tags": [],
+  "category": "",
+  "files": [
+    {
+      "path": "src/Pagination/Pagination.tsx"
+    }
+  ]
+}

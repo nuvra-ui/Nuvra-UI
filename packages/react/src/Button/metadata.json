@@ -1,0 +1,13 @@
+{
+  "name": "Button",
+  "description": "",
+  "author": "",
+  "version": "",
+  "tags": [],
+  "category": "",
+  "files": [
+    {
+      "path": "src/Button/Button.tsx"
+    }
+  ]
+}

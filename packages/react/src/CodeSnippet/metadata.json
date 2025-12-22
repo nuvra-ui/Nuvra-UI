@@ -1,0 +1,13 @@
+{
+  "name": "CodeSnippet",
+  "description": "",
+  "author": "",
+  "version": "",
+  "tags": [],
+  "category": "",
+  "files": [
+    {
+      "path": "src/CodeSnippet/CodeSnippet.tsx"
+    }
+  ]
+}
