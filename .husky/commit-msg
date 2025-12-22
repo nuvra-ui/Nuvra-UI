@@ -1,0 +1,8 @@
+echo ""
+echo "🔒 Commit message format is enforced!"
+echo "✅ Use format: type: message"
+echo "🔧 Example: feat: add login form validation feature"
+echo "🔹 Valid types: feat, fix, docs, chore, refactor, test, etc."
+echo ""
+
+npx commitlint --edit .git/COMMIT_EDITMSG
