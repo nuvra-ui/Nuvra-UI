@@ -1,0 +1,7 @@
+services:
+  sb-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7002:80"
