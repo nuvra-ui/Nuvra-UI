@@ -1,14 +1,6 @@
 {
-  "name": "react",
+  "name": "@nuvra-ui/react",
   "type": "module",
-  "license": "MIT",
-  "keywords": [
-    "react",
-    "ui",
-    "components",
-    "tailwindcss",
-    "component-libary"
-  ],
   "files": [
     "dist",
     "src"
