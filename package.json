@@ -12,11 +12,16 @@
     "component-library"
   ],
   "scripts": {
-    "dev:react": "lerna run dev --scope react",
-    "build:react": "lerna run build --scope react",
-    "storybook:react": "lerna run storybook --scope react",
-    "preview:react": "lerna run preview --scope react",
-    "build-storybook:react": "lerna run build-storybook --scope react"
+    "dev:react": "lerna run dev --scope @nuvra-ui/react",
+    "build:react": "lerna run build --scope @nuvra-ui/react",
+    "storybook:react": "lerna run storybook --scope @nuvra-ui/react",
+    "preview:react": "lerna run preview --scope @nuvra-ui/react",
+    "build-storybook:react": "lerna run build-storybook --scope @nuvra-ui/react",
+
+    "dev:vue": "lerna run dev --scope @nuvra-ui/vue",
+    "build:vue": "lerna run build --scope @nuvra-ui/vue",
+    "storybook:vue": "lerna run storybook --scope @nuvra-ui/vue",
+    "preview:vue": "lerna run preview --scope @nuvra-ui/vue"
   },
   "workspaces": ["packages/*"],
   "dependencies": {},
