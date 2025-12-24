@@ -1,7 +1,10 @@
 {
   "name": "@nuvra-ui/react",
   "type": "module",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",

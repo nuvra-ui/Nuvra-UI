@@ -1,6 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/vue3-vite';
+import type { Meta, StoryObj } from "@storybook/vue3-vite";
 
-import HelloWorld from '../components/HelloWorld.vue';
+import HelloWorld from "../components/HelloWorld.vue";
 
 const meta = {
   component: HelloWorld,
@@ -15,6 +15,6 @@ export const Primary: Story = {
     setup() {
       return { args };
     },
-    template: '<HelloWorld />',
+    template: "<HelloWorld />",
   }),
 };

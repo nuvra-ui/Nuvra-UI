@@ -6,7 +6,7 @@ const Link = ({ className, children, ...props }: React.ComponentProps<"a">) => {
     <a
       className={twMerge(
         "bg-transparent text-primary hover:underline underline-offset-3",
-        className
+        className,
       )}
       {...props}
     >

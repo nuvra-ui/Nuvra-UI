@@ -17,13 +17,11 @@
     "preview:react": "lerna run preview --scope @nuvra-ui/react",
     "storybook:react": "lerna run storybook --scope @nuvra-ui/react",
     "build-storybook:react": "lerna run build-storybook --scope @nuvra-ui/react",
-
     "dev:vue": "lerna run dev --scope @nuvra-ui/vue",
     "build:vue": "lerna run build --scope @nuvra-ui/vue",
     "preview:vue": "lerna run preview --scope @nuvra-ui/vue",
     "storybook:vue": "lerna run storybook --scope @nuvra-ui/vue",
     "build-storybook:vue": "lerna run build-storybook --scope @nuvra-ui/vue",
-
     "prepare": "husky",
     "storybook": "lerna run storybook --stream"
   },
@@ -34,6 +32,7 @@
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
     "husky": "^9.1.7",
-    "lerna": "^9.0.3"
+    "lerna": "^9.0.3",
+    "prettier": "3.7.4"
   }
 }

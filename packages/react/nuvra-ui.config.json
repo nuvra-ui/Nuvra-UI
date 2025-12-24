@@ -1,5 +1,5 @@
 {
-    "styles": {
-        "global": "src/styles/global.css"
-    }
+  "styles": {
+    "global": "src/styles/global.css"
+  }
 }
