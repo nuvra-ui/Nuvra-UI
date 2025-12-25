@@ -22,11 +22,14 @@
     "preview:vue": "lerna run preview --scope @nuvra-ui/vue",
     "storybook:vue": "lerna run storybook --scope @nuvra-ui/vue",
     "build-storybook:vue": "lerna run build-storybook --scope @nuvra-ui/vue",
+    "build": "lerna run build",
     "prepare": "husky",
-    "storybook": "lerna run storybook --stream"
+    "storybook": "lerna run storybook --stream",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier --write"
   },
   "workspaces": [
     "packages/*"
