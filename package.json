@@ -27,7 +27,8 @@
     "storybook": "lerna run storybook --stream",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint ."
+    "lint": "eslint . --fix",
+    "lint:check": "eslint ."
   },
   "lint-staged": {
     "**/*": [
