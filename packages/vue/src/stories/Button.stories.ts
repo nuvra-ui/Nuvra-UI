@@ -15,6 +15,23 @@ export const ButtonExample: Story = {
     setup() {
       return { args };
     },
-    template: "<Button size='lg' variant='default'>Button</Button>",
+    template: "<Button v-bind='args'>Button</Button>", // 'todo' - https://storybook.js.org/addons/storybook-addon-vue-slots
   }),
+
+  argTypes: {
+    variant: {
+      control: "inline-radio",
+      options: ["default", "ghost"],
+    },
+    size: {
+      control: "inline-radio",
+      options: ["default", "sm", "lg", "icon"],
+    },
+  },
+
+  //default values
+  args: {
+    variant: "default",
+    size: "default",
+  },
 };
