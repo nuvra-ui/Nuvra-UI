@@ -15,6 +15,6 @@ export const ButtonExample: Story = {
     setup() {
       return { args };
     },
-    template: "<Button size='lg'>Button</Button>",
+    template: "<Button size='lg' variant='default'>Button</Button>",
   }),
 };
