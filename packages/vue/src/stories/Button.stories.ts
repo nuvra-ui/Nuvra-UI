@@ -9,12 +9,12 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
+export const ButtonExample: Story = {
   render: (args) => ({
     components: { Button },
     setup() {
       return { args };
     },
-    template: "<Button />",
+    template: "<Button>Button</Button>",
   }),
 };
