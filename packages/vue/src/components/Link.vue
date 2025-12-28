@@ -11,7 +11,7 @@ const attrs = useAttrs();
     :class="
       twMerge(
         'bg-transparent text-primary hover:underline underline-offset-3',
-        attrs.class,
+        attrs.class as string | undefined,
       )
     "
     v-bind="attrs"
