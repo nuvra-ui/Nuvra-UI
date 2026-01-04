@@ -28,7 +28,7 @@
       "dependencies": ["class-variance-authority", "tailwind-merge"],
       "files": [
         {
-          "path": "packages/vue/src/components/Button.tsx"
+          "path": "packages/react/src/components/Button.tsx"
         }
       ]
     },
@@ -38,7 +38,7 @@
       "dependencies": ["tailwind-merge"],
       "files": [
         {
-          "path": "packages/vue/src/components/Link.tsx"
+          "path": "packages/react/src/components/Link.tsx"
         }
       ]
     }
