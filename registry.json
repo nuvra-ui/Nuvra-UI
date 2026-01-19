@@ -1,0 +1,46 @@
+{
+  "vuejs": [
+    {
+      "name": "Button",
+      "author": "brainlesslukas",
+      "dependencies": ["class-variance-authority", "tailwind-merge"],
+      "files": [
+        {
+          "path": "packages/vue/src/components/Button.vue"
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "author": "brainlesslukas",
+      "dependencies": ["tailwind-merge"],
+      "files": [
+        {
+          "path": "packages/vue/src/components/Link.vue"
+        }
+      ]
+    }
+  ],
+  "react": [
+    {
+      "name": "Button",
+      "author": "brainlesslukas",
+      "dependencies": ["class-variance-authority", "tailwind-merge"],
+      "files": [
+        {
+          "path": "packages/react/src/components/Button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "author": "brainlesslukas",
+      "dependencies": ["tailwind-merge"],
+      "files": [
+        {
+          "path": "packages/react/src/components/Link.tsx"
+        }
+      ]
+    }
+  ]
+}
