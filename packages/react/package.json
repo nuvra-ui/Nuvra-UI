@@ -2,6 +2,7 @@
   "name": "@nuvra-ui/react",
   "version": "0.0.1",
   "type": "module",
+  "access": "public",
   "files": [
     "dist",
     "src"
@@ -34,5 +35,5 @@
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.13"
   },
-  "gitHead": "57f85961217325580cede974ed09a1416e6e06f6"
+  "gitHead": "84c34c4a7b2f82c2e5bacbd58a5387f47f0cb12c"
 }
