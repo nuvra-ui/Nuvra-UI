@@ -1,7 +1,8 @@
 {
   "name": "@nuvra-ui/nuvra-ui",
   "license": "MIT",
-  "version": "0.1.2",
+  "version": "0.0.1",
+  "private": true,
   "keywords": [
     "react",
     "vue",
