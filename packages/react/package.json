@@ -12,6 +12,9 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
+  "dependencies": {
+    "@nuvra-ui/eslint-config": "workspace:*"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/node": "^24.10.1",
