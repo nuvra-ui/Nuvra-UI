@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "exports": {
-    "./base": "./base.js"
-  },
+  "main": "base.js",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "eslint": "^9.39.2"
