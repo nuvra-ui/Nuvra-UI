@@ -8,7 +8,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "prepare": "husky",
-    "release-package": "changeset version && changeset publish"
+    "release-package": "changeset publish",
+    "version-package": "changeset version"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.2",
