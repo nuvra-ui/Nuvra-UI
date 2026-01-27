@@ -46,4 +46,10 @@ jobs:
         run: pnpm install
 
       - name: Publish to npm and create Github release
-        run: echo "Publish Placeholder"
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
