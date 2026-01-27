@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.2
+
+### Patch Changes
+
+- [`eb41f4a`](https://github.com/nuvra-ui/Nuvra-UI/commit/eb41f4a5d4b0ebd1fbe4cd93499233375a637b9b) - Publish package on NPM
+
 ## 0.0.1
 
 ### Patch Changes
