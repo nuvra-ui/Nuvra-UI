@@ -2,4 +2,4 @@
 "@nuvra-ui/react": patch
 ---
 
-Just checking the CI/CD pipeline.
+Just testing the CI/CD pipeline.
