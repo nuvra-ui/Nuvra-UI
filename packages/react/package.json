@@ -2,6 +2,9 @@
   "name": "@nuvra-ui/react",
   "version": "0.0.1",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "scripts": {
