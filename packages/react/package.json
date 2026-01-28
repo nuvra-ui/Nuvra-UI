@@ -15,7 +15,9 @@
   },
   "peerDependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
   },
   "dependencies": {
     "@nuvra-ui/eslint-config": "workspace:*"

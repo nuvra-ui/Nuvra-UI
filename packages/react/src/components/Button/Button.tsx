@@ -1,3 +1,3 @@
 export function Button() {
-  return <div>Button</div>;
+  return <div className="bg-green-600">Button</div>;
 }
