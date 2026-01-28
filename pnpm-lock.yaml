@@ -32,12 +32,18 @@ importers:
 
   apps/storybook-react:
     dependencies:
+      '@tailwindcss/vite':
+        specifier: ^4.1.18
+        version: 4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.31.1))
       react:
         specifier: ^19.2.0
         version: 19.2.4
       react-dom:
         specifier: ^19.2.0
         version: 19.2.4(react@19.2.4)
+      tailwindcss:
+        specifier: ^4.1.18
+        version: 4.1.18
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^5.0.0
@@ -105,18 +111,12 @@ importers:
       '@nuvra-ui/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@tailwindcss/vite':
-        specifier: ^4.1.18
-        version: 4.1.18(rolldown-vite@7.2.5(@types/node@24.10.9)(jiti@2.6.1))
       react:
         specifier: ^19.2.0
         version: 19.2.4
       react-dom:
         specifier: ^19.2.0
         version: 19.2.4(react@19.2.4)
-      tailwindcss:
-        specifier: ^4.1.18
-        version: 4.1.18
     devDependencies:
       '@eslint/js':
         specifier: ^9.39.1
@@ -4022,12 +4022,12 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.18
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.18
 
-  '@tailwindcss/vite@4.1.18(rolldown-vite@7.2.5(@types/node@24.10.9)(jiti@2.6.1))':
+  '@tailwindcss/vite@4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.31.1))':
     dependencies:
       '@tailwindcss/node': 4.1.18
       '@tailwindcss/oxide': 4.1.18
       tailwindcss: 4.1.18
-      vite: rolldown-vite@7.2.5(@types/node@24.10.9)(jiti@2.6.1)
+      vite: 7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.31.1)
 
   '@testing-library/dom@10.4.1':
     dependencies:
