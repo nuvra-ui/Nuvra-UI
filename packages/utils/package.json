@@ -8,6 +8,10 @@
     "dev": "tsc --watch",
     "build": "tsc"
   },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.4.0"
+  },
   "devDependencies": {
     "@nuvra-ui/typescript-config": "workspace:*",
     "typescript": "^5.9.3"
