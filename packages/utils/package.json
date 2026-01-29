@@ -4,6 +4,10 @@
   "type": "module",
   "private": true,
   "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
   "devDependencies": {
     "@nuvra-ui/typescript-config": "workspace:*",
     "typescript": "^5.9.3"
