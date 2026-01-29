@@ -1,0 +1,11 @@
+{
+  "name": "@nuvra-ui/utils",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@nuvra-ui/typescript-config": "workspace:*",
+    "typescript": "^5.9.3"
+  }
+}
