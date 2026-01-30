@@ -2,15 +2,5 @@
   "name": "@nuvra-ui/theme",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "@nuvra-ui/typescript-config": "workspace:*",
-    "typescript": "^5.9.3"
-  }
+  "private": true
 }
