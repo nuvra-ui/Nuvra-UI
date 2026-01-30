@@ -2,5 +2,11 @@
   "name": "@nuvra-ui/theme",
   "version": "0.0.0",
   "type": "module",
-  "private": true
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./styles.css": "./src/globals.css"
+  }
 }
