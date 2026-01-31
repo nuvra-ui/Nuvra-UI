@@ -1,5 +1,18 @@
 import { cn } from "@nuvra-ui/utils";
 
-export function Button() {
-  return <div className={cn("bg-green-400", "bg-amber-500")}>Button</div>;
+export function Button({
+  className,
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) {
+  return (
+    <button
+      className={cn(
+        "bg-primary hover:bg-primary/90 text-primary-foreground px-3 py-1 rounded-md flex justify-center items-center",
+        className
+      )}
+      {...props}
+    >
+      Button
+    </button>
+  );
 }
