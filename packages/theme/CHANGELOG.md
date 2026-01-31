@@ -1,5 +1,11 @@
 # @nuvra-ui/theme
 
+## 0.0.3
+
+### Patch Changes
+
+- [`c3981cf`](https://github.com/nuvra-ui/Nuvra-UI/commit/c3981cfa26597c4c8f2b220a236aa66159b5e02e) - Add Basic Color schema like primary, warning, ... colors
+
 ## 0.0.2
 
 ### Patch Changes
