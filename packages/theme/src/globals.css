@@ -1,0 +1,27 @@
+@theme inline {
+  --background: var(--background);
+  --foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-success: var(--success);
+  --color-warnign: var(--warning);
+  --color-danger: var(--danger);
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+
+  --success: oklch(0.6426 0.1706 149.05);
+  --warning: oklch(0.7525 0.1649 67.62);
+  --danger: oklch(0.5928 0.2159 27.55);
+}
