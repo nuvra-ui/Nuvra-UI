@@ -2,6 +2,7 @@ import { cn } from "@nuvra-ui/utils";
 
 export function Button({
   className,
+  children,
   ...props
 }: React.ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
@@ -12,7 +13,7 @@ export function Button({
       )}
       {...props}
     >
-      Button
+      {children}
     </button>
   );
 }
