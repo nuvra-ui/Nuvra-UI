@@ -6,7 +6,13 @@ export function Link({
   ...props
 }: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
   return (
-    <a className={cn("", className)} {...props}>
+    <a
+      className={cn(
+        "text-primary underline-offset-4 hover:underline",
+        className
+      )}
+      {...props}
+    >
       {children}
     </a>
   );
