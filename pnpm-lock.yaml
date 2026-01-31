@@ -32,6 +32,9 @@ importers:
 
   apps/storybook-react:
     dependencies:
+      '@nuvra-ui/theme':
+        specifier: workspace:*
+        version: link:../../packages/theme
       '@tailwindcss/vite':
         specifier: ^4.1.18
         version: 4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.31.1))
@@ -111,6 +114,9 @@ importers:
       '@nuvra-ui/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
+      '@nuvra-ui/utils':
+        specifier: workspace:*
+        version: link:../utils
       react:
         specifier: ^19.2.0
         version: 19.2.4
@@ -160,6 +166,8 @@ importers:
       vite-plugin-dts:
         specifier: ^4.5.4
         version: 4.5.4(@types/node@24.10.9)(rolldown-vite@7.2.5(@types/node@24.10.9)(jiti@2.6.1))(rollup@4.57.0)(typescript@5.9.3)
+
+  packages/theme: {}
 
   packages/typescript-config: {}
 
