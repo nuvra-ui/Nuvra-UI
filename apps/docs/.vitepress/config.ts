@@ -1,30 +1,30 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "content",
-  
+  appearance: false,
+
   title: "Nuvra-UI",
   description: "Build flexible, unstyled components - your design, your way.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "Home", link: "/" },
+      { text: "Components", link: "/" },
+      { text: "Contributing", link: "/" },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: "Introduction",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: "What is Nuvra-UI?", link: "/" },
+          { text: "Getting Started", link: "/introduction/getting-started" },
+        ],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    socialLinks: [{ icon: "github", link: "https://github.com/nuvra-ui" }],
+  },
+});
