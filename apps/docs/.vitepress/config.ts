@@ -35,6 +35,10 @@ export default defineConfig({
           { text: "Getting Started", link: "/introduction/getting-started" },
         ],
       },
+      {
+        text: "Contributing",
+        items: [{ text: "Contributing", link: "/contributing/contributing" }],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/nuvra-ui" }],
