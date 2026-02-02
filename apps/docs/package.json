@@ -1,0 +1,18 @@
+{
+  "name": "@nuvra-ui/docs",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.16",
+    "vue": "^3.5.27"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress-plugin-group-icons": "^1.7.1"
+  }
+}

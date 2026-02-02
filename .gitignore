@@ -48,3 +48,6 @@ logs
 # Storybook
 *storybook.log
 storybook-static
+
+# Docs
+cache
