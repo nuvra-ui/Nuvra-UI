@@ -36,6 +36,16 @@ export default defineConfig({
         ],
       },
       {
+        text: "Components",
+        collapsed: true,
+        items: [
+          { text: "Component Gallery", link: "/components/component-gallery" },
+          { text: "Button", link: "/components/button" },
+          { text: "Link", link: "/components/link" },
+          { text: "Badge", link: "/components/badge" },
+        ],
+      },
+      {
         text: "Contributing",
         items: [{ text: "Contributing", link: "/contributing/contributing" }],
       },
