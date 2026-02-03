@@ -11,6 +11,9 @@ export default defineConfig({
 
   title: "Nuvra-UI",
   description: "Build flexible, unstyled components - your design, your way.",
+
+  head: [["link", { rel: "icon", href: "/NuvraUILogo.svg" }]],
+
   markdown: {
     config(md) {
       md.use(groupIconMdPlugin);
@@ -21,6 +24,9 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    logo: "/NuvraUILogo.svg",
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Components", link: "/" },
