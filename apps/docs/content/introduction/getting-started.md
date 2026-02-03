@@ -47,7 +47,7 @@ import { Button } from "@nuvra-ui/react";
 export default function MyComponent() {
   return (
     <div className="flex gap-4 p-4">
-      <Button variant="">Click me</Button>
+      <Button>Click me</Button>
       <Button className="bg-green-200">Hello World</Button>
     </div>
   );
