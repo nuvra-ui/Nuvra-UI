@@ -1,5 +1,4 @@
-# What is Nuvra-UI?
-
+![Nuvra-UI Banner](/NuvraUIBanner.svg)
 ## Introduction
 
 Nuvra-UI is a minimal, lightweight component library for React and Tailwind CSS. It provides the essential building blocks for your application without the typical overhead. Instead of fighting a rigid design system, you get flexible, unstyled components: your design, your way.
