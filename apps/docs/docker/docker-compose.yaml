@@ -5,4 +5,4 @@ services:
       dockerfile: apps/docs/docker/Dockerfile
     restart: unless-stopped
     ports:
-      - "${PORT: -3000}:80"
+      - "${PORT:-3000}:80"
