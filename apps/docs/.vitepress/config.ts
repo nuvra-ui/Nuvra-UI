@@ -9,7 +9,7 @@ export default defineConfig({
   srcDir: "content",
   appearance: false,
 
-  title: "Nuvra-UI",
+  title: "Nuvra-UI | Docs",
   description: "Build flexible, unstyled components - your design, your way.",
 
   head: [["link", { rel: "icon", href: "/NuvraUILogo.svg" }]],
