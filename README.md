@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nuvra-ui/Nuvra-UI/refs/heads/main/apps/docs/content/public/NuvraUILogo.svg" alt="Nuvra-UI Banner" width="720"/>
+<img src="https://raw.githubusercontent.com/nuvra-ui/Nuvra-UI/refs/heads/main/apps/docs/content/public/NuvraUILogo.svg" alt="Nuvra-UI Banner" width="420"/>
 
 <h1>Nuvra-UI</h1>
 
