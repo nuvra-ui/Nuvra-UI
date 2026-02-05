@@ -18,10 +18,10 @@
     "react-dom": "^19.2.0"
   },
   "dependencies": {
-    "@nuvra-ui/eslint-config": "workspace:*",
     "@nuvra-ui/utils": "workspace:*"
   },
   "devDependencies": {
+    "@nuvra-ui/eslint-config": "workspace:*",
     "@eslint/js": "^9.39.1",
     "@storybook/react": "^10.2.1",
     "@types/node": "^24.10.1",

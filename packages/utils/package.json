@@ -2,7 +2,9 @@
   "name": "@nuvra-ui/utils",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
