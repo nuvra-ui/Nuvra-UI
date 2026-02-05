@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.5
+
+### Patch Changes
+
+- [`23fe66d`](https://github.com/nuvra-ui/Nuvra-UI/commit/23fe66dbfa11b1f35397ee8bea8f8773da3153fa) - Generated Types
+
 ## 0.0.4
 
 ### Patch Changes
