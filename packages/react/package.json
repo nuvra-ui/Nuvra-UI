@@ -6,11 +6,11 @@
     "access": "public"
   },
   "types": "./dist/index.es.d.ts",
-    "exports": {
-      ".": {
-        "types": "./dist/index.es.d.ts",
-        "import": "./dist/index.es.js"
-      }
+  "exports": {
+    ".": {
+      "types": "./dist/index.es.d.ts",
+      "import": "./dist/index.es.js"
+    }
   },
   "scripts": {
     "dev": "vite build --watch",
