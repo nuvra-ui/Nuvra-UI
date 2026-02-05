@@ -1,11 +1,11 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/nuvra-ui/Nuvra-UI/refs/heads/main/apps/docs/content/public/NuvraUIBannerSmall.svg" alt="Nuvra-UI Banner"/>
 
-<img src="https://raw.githubusercontent.com/nuvra-ui/Nuvra-UI/refs/heads/main/apps/docs/content/public/NuvraUIBannerSmall.svg" alt="Nuvra-UI Banner"/>
+  ### Build flexible, unstyled components — your design, your way.
 
-Build flexible, unstyled components - your design, your way.
-
-[Website](https://nuvra-ui.com) | [Documentation](https://docs.nuvra-ui.com)
-
+  [![Website](https://img.shields.io/badge/Website-nuvra--ui.com-blue)](https://nuvra-ui.com)   [![Docs](https://img.shields.io/badge/Documentation-docs-green)](https://docs.nuvra-ui.com)
+  
+  **Lightweight** • **TailwindCSS** • **Typescript**
 </div>
 
 ## Installation
@@ -42,3 +42,6 @@ export default function MyComponent() {
 
 ## Component Overview
 You can find a complete list of all available components in our [Component Gallery](https://docs.nuvra-ui.com/components/component-gallery.html)
+
+## Want to contribute? 
+Just follow our [contrubtion guidelines](https://docs.nuvra-ui.com/contributing/contributing.html).
