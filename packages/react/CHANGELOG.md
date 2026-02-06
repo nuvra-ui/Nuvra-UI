@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.6
+
+### Patch Changes
+
+- [`f5d0ea5`](https://github.com/nuvra-ui/Nuvra-UI/commit/f5d0ea55e52cbcf545f3a6e5ec0a12728e043492) - Bundling correct types and exporting them
+
 ## 0.0.5
 
 ### Patch Changes
