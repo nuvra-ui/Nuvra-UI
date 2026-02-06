@@ -5,11 +5,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
   "types": "./dist/index.es.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.es.d.ts",
-      "import": "./dist/index.es.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "scripts": {
@@ -27,6 +30,7 @@
   },
   "devDependencies": {
     "@nuvra-ui/eslint-config": "workspace:*",
+    "@nuvra-ui/typescript-config": "workspace:*",
     "@eslint/js": "^9.39.1",
     "@storybook/react": "^10.2.1",
     "@types/node": "^24.10.1",
