@@ -1,7 +1,11 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "extends": "@nuvra-ui/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "jsx": "react-jsx",
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
