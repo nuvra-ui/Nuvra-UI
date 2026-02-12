@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.9
+
+### Patch Changes
+
+- [`492efb5`](https://github.com/nuvra-ui/Nuvra-UI/commit/492efb5d0c492ff88c4b48a865f6d124520d1bf4) - Rebuild Package
+
 ## 0.0.8
 
 ### Patch Changes
