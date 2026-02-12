@@ -2,8 +2,7 @@
   "extends": "@nuvra-ui/typescript-config/base.json",
   "compilerOptions": {
     "outDir": "dist",
-    "declaration": true,
-    "declarationMap": true,
+    "noEmit": true,
     "jsx": "react-jsx",
   },
   "include": ["src"],
