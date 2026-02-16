@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.10
+
+### Patch Changes
+
+- [`a68b0de`](https://github.com/nuvra-ui/Nuvra-UI/commit/a68b0de1f1abb9243ee622d9d1997263cafa9e23) - Add Source Tag to global CSS FIle
+
 ## 0.0.9
 
 ### Patch Changes
