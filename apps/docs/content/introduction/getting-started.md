@@ -25,13 +25,14 @@ bun add @nuvra-ui/react @nuvra-ui/theme
 ```
 :::
 
-Then import the Nuvra-UI theme package in your CSS file:
-```css {4}
+Next, import the Nuvra-UI theme package into your CSS file and include the `@source` directive (ensure the path to node_modules is correct for your project structure):
+```css {4,6}
 /* src/index.css */
 @import "tailwindcss";
 
 @import "@nuvra-ui/theme/styles.css";
 
+@source "../node_modules/@nuvra-ui/react"; 
 ...
 ```
 
