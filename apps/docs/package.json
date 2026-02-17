@@ -13,6 +13,13 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
+    "@nuvra-ui/react": "workspace:*",
+    "@nuvra-ui/theme": "workspace:*",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-react": "^5.1.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18",
     "vitepress-plugin-group-icons": "^1.7.1"
   }
 }
