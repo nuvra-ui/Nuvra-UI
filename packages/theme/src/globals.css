@@ -1,5 +1,3 @@
-@source "../../react/dist/**/*.js";
-
 @source "../../react/src/**/*.{js,ts,jsx,tsx}";
 
 @theme inline {
