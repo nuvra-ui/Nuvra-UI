@@ -1,5 +1,12 @@
 # @nuvra-ui/storybook-react
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`7215951`](https://github.com/nuvra-ui/Nuvra-UI/commit/7215951b688144069b5ebd2b5f08cbe4da6814ae)]:
+  - @nuvra-ui/theme@0.0.5
+
 ## 0.0.3
 
 ### Patch Changes

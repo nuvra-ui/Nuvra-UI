@@ -1,5 +1,11 @@
 # @nuvra-ui/theme
 
+## 0.0.5
+
+### Patch Changes
+
+- [`7215951`](https://github.com/nuvra-ui/Nuvra-UI/commit/7215951b688144069b5ebd2b5f08cbe4da6814ae) - Remove Dist source Tag in global CSS file
+
 ## 0.0.4
 
 ### Patch Changes
