@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@import "@nuvra-ui/theme/styles.css";
+
+@source "../node_modules/@nuvra-ui/react";

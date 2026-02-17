@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 import {
   groupIconMdPlugin,
   groupIconVitePlugin,
@@ -20,7 +22,7 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [groupIconVitePlugin()],
+    plugins: [groupIconVitePlugin(), react(), tailwindcss()],
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
