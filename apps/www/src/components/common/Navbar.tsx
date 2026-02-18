@@ -6,11 +6,14 @@ const Navbar = () => {
       <a href="https://docs.nuvra-ui.com" className="hover:text-black">
         Docs
       </a>
-      <a href="#" className="hover:text-black">
-        Showcase
+      <a
+        href="https://docs.nuvra-ui.com/components/component-gallery.html"
+        className="hover:text-black"
+      >
+        Component Gallery
       </a>
       <a
-        href="https://docs.nuvra-ui.com/contributing.html"
+        href="https://docs.nuvra-ui.com/contributing/contributing.html"
         className="hover:text-black"
       >
         Contribute
