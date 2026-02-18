@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.grid-bg {
+  background-image: linear-gradient(
+      rgba(20, 184, 166, 0.15) 2px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(20, 184, 166, 0.15) 1px, transparent 2px);
+  background-size: 45px 45px;
+  mask-image: radial-gradient(ellipse at bottom, black 0%, transparent 70%);
+  -webkit-mask-image: radial-gradient(
+    ellipse at bottom,
+    black 0%,
+    transparent 80%
+  );
+}
