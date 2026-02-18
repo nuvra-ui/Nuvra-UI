@@ -1,0 +1,11 @@
+{
+  "extends": "@nuvra-ui/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
