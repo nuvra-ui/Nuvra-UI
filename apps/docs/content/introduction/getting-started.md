@@ -17,7 +17,7 @@
 ::::
 
 ### Component Overview:
-You can find a complete list of all available components in our (Component Gallery)[/].
+You can find a complete list of all available components in our [Component Gallary](/).
 
 
 <script setup>
