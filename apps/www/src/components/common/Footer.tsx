@@ -3,7 +3,7 @@ import { SiNpm } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="bg-white flex flex-row justify-between text-xs text-gray-700 py-1 px-2">
+    <div className="bg-white flex flex-row justify-between text-sm text-gray-700 py-1 px-2">
       <a href="/imprint">Imprint</a>
       <p>
         Made with ❤️ by{" "}
