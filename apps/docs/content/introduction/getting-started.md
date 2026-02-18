@@ -1,5 +1,9 @@
 # Getting Started
 
+:::: tabs
+
+::: tab React
+
 ## Installation
 To get started, install the package using your preferred package manager:
 
@@ -54,6 +58,16 @@ export default function MyComponent() {
   );
 }
 ```
+
+:::
+
+::: tab Vue.js
+
+Soon...
+
+:::
+
+::::
 
 ### Component Overview:
 You can find a complete list of all available components in our (Component Gallery)[/].
