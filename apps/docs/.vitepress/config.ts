@@ -5,6 +5,7 @@ import {
   groupIconMdPlugin,
   groupIconVitePlugin,
 } from "vitepress-plugin-group-icons";
+import tabsPlugin from "@red-asuka/vitepress-plugin-tabs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,6 +20,7 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(groupIconMdPlugin);
+      md.use(tabsPlugin);
     },
   },
   vite: {

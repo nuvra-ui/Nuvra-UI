@@ -5,7 +5,8 @@
   "private": true,
   "devDependencies": {
     "vitepress": "2.0.0-alpha.16",
-    "vue": "^3.5.27"
+    "vue": "^3.5.27",
+    "vue3-tabs-component": "^1.3.7"
   },
   "scripts": {
     "dev": "vitepress dev",
@@ -13,6 +14,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
+    "@red-asuka/vitepress-plugin-tabs": "^0.0.4",
     "@nuvra-ui/react": "workspace:*",
     "@nuvra-ui/theme": "workspace:*",
     "@tailwindcss/vite": "^4.1.18",
