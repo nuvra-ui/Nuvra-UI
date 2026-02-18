@@ -149,6 +149,12 @@ importers:
       '@eslint/js':
         specifier: ^9.39.1
         version: 9.39.2
+      '@nuvra-ui/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@nuvra-ui/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: ^24.10.1
         version: 24.10.9
