@@ -23,6 +23,7 @@ COPY --from=pruner /app/out/full/ .
 RUN pnpm run build --filter @nuvra-ui/www
 
 FROM nginx:latest
+COPY apps/www/docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/apps/www/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
