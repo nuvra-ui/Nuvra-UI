@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
+@import "@nuvra-ui/theme/styles.css";
+
+@source "../node_modules/@nuvra-ui/react";
 
 * {
   font-family: "Rubik", sans-serif;

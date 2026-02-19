@@ -142,6 +142,12 @@ importers:
       '@gsap/react':
         specifier: ^2.1.2
         version: 2.1.2(gsap@3.14.2)(react@19.2.4)
+      '@nuvra-ui/react':
+        specifier: workspace:*
+        version: link:../../packages/react
+      '@nuvra-ui/theme':
+        specifier: workspace:*
+        version: link:../../packages/theme
       '@tailwindcss/vite':
         specifier: ^4.1.18
         version: 4.1.18(vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(lightningcss@1.31.1))
