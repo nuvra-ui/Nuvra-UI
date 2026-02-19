@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nuvra-ui/react": "workspace:*",
+    "@nuvra-ui/theme": "workspace:*",
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.1.18",
     "class-variance-authority": "^0.7.1",

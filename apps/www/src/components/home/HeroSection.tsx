@@ -3,20 +3,20 @@ import { FaArrowRight } from "react-icons/fa6";
 import Navbar from "../common/Navbar";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { Button } from "../../ui/Button";
+import { Button } from "@nuvra-ui/react";
 
 const HeroSection = () => {
   useGSAP(() => {
     gsap.fromTo(
       ".icon",
       { x: -50, opacity: 0 },
-      { x: 0, stagger: 0.2, opacity: 1, duration: 1, ease: "bounce.out" },
+      { x: 0, stagger: 0.2, opacity: 1, duration: 1, ease: "bounce.out" }
     );
     gsap.fromTo(".header", { opacity: 0 }, { opacity: 1, duration: 3 });
     gsap.fromTo(
       ".arrow",
       { y: -20 },
-      { y: -0, repeat: -1, duration: 1, ease: "power1.inOut", yoyo: true },
+      { y: -0, repeat: -1, duration: 1, ease: "power1.inOut", yoyo: true }
     );
   });
 
@@ -33,18 +33,12 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col lg:flex-row mx-auto gap-4 pt-4">
             <a href="https://docs.nuvra-ui.com/">
-              <Button
-                size="lg"
-                className="bg-teal-400/90 hover:bg-teal-400 text-white"
-              >
+              <Button className="bg-teal-400/90 hover:bg-teal-400 text-white px-4 py-2">
                 Get Started
               </Button>
             </a>
             <a href="https://docs.nuvra-ui.com/components/button.html">
-              <Button
-                size="lg"
-                className="bg-transparent text-gray-700 hover:bg-secondary border border-border gap-2"
-              >
+              <Button className="bg-transparent text-gray-700 hover:bg-gray-100 border border-gray-300 gap-2 px-4 py-2">
                 <p>Explore Components</p> <FaArrowRight />
               </Button>
             </a>
