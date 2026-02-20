@@ -51,3 +51,4 @@ storybook-static
 
 # Docs
 cache
+next-env.d.ts
