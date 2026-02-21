@@ -1,22 +1,28 @@
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
-import { Banner, Head } from "nextra/components";
+import { Head } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import "nextra-theme-docs/style.css";
+import Image from "next/image";
 import "./globals.css";
+
+import logo from "./logo.svg";
 
 export const metadata = {
   // Define your metadata here
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
-const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>;
 const navbar = (
   <Navbar
-    logo={<b>Nextra</b>}
-    // ... Your additional navbar options
+    logo={
+      <span className="flex gap-2">
+        <Image src={logo} alt="Nuvra-UI Logo" width={24} height={24} />
+        <h1 className="font-semibold">Nuvra-UI</h1>
+      </span>
+    }
   />
 );
-const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>;
+const footer = <Footer>MIT {new Date().getFullYear()} © Nuvra-UI.</Footer>;
 
 export default async function RootLayout({
   children,
@@ -37,12 +43,13 @@ export default async function RootLayout({
       </Head>
       <body>
         <Layout
-          banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
+          docsRepositoryBase="https://github.com/nuvra-ui/nuvra-ui/tree/main/apps/docs"
           footer={footer}
-          // ... Your additional layout options
+          darkMode={false}
+          nextThemes={{ defaultTheme: "light" }}
+          sidebar={{ defaultOpen: true, toggleButton: false }}
         >
           {children}
         </Layout>
