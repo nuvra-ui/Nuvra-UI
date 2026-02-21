@@ -1,27 +1,34 @@
-### Installation
-To get started, install the package using your preferred package manager:
+import { Callout, Tabs } from 'nextra/components'
 
-> [!WARNING]
-> Make sure you have a fully functional React project set up, and that TailwindCSS is properly integrated into your project for the setup to work
-> correctly.
+# React Setup
+To get started, **install the packages** using your preferred package manager:
 
-::: code-group
-```sh [npm]
-npm install @nuvra-ui/react @nuvra-ui/theme
-```
+<Callout type="warning">
+    Make sure you have a fully functional React project set up, and that TailwindCSS is properly integrated into your project for the setup to work
+</Callout>
 
-```sh [yarn]
-yarn add @nuvra-ui/react @nuvra-ui/theme
-```
-
-```sh [pnpm]
-pnpm add @nuvra-ui/react @nuvra-ui/theme
-```
-
-```sh [bun]
-bun add @nuvra-ui/react @nuvra-ui/theme
-```
-:::
+<Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
+  <Tabs.Tab>
+  ```sh
+  pnpm add @nuvra-ui/react @nuvra-ui/theme
+  ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+  ```sh
+  npm install @nuvra-ui/react @nuvra-ui/theme
+  ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+  ```sh
+  yarn add @nuvra-ui/react @nuvra-ui/theme
+  ```
+  </Tabs.Tab>
+  <Tabs.Tab>
+  ```sh
+  bun add @nuvra-ui/react @nuvra-ui/theme
+  ```
+  </Tabs.Tab>
+</Tabs>
 
 Next, import the Nuvra-UI theme package into your CSS file and include the `@source` directive (ensure the path to node_modules is correct for your project structure):
 ```css {4,6}
