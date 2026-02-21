@@ -1,0 +1,19 @@
+export const components = [
+  "Button", "Slider", "Switch", "Badge"
+];
+
+# Components
+Explore the Nuvra-UI component library below. Stay tuned - we are currently working hard to add even more to the library!
+
+
+<div className="pt-10 text-xl font-semibold grid grid-cols-3 gap-6">
+  {components.map((item) => (
+    <a 
+      key={item}
+      href={"/"}
+      className="cursor-pointer hover:underline transition-all duration-200"
+    >
+      {item}
+    </a>
+  ))}
+</div>
