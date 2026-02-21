@@ -31,14 +31,12 @@ To get started, **install the packages** using your preferred package manager:
 </Tabs>
 
 Next, import the Nuvra-UI theme package into your CSS file and include the `@source` directive (ensure the path to node_modules is correct for your project structure):
-```css {4,6}
-/* src/index.css */
+```css {3,5} filename="src/index.css"
 @import "tailwindcss";
 
 @import "@nuvra-ui/theme/styles.css";
 
 @source "../node_modules/@nuvra-ui/react"; 
-...
 ```
 
 ## Usage
@@ -46,8 +44,7 @@ To start using components, simply import them from the `@nuvra-ui/react` package
 
 ### Your First Component
 Here is a quick example of how to use the `Button` component in your project:
-``` tsx
-// MyComponent.tsx
+``` tsx filename="MyComponent.tsx"
 import { Button } from "@nuvra-ui/react";
 
 export default function MyComponent() {
