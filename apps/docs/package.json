@@ -1,27 +1,28 @@
 {
   "name": "@nuvra-ui/docs",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
-  "devDependencies": {
-    "vitepress": "2.0.0-alpha.16",
-    "vue": "^3.5.27",
-    "vue3-tabs-component": "^1.3.7"
-  },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@red-asuka/vitepress-plugin-tabs": "^0.0.4",
-    "@nuvra-ui/react": "workspace:*",
-    "@nuvra-ui/theme": "workspace:*",
-    "@tailwindcss/vite": "^4.1.18",
-    "@vitejs/plugin-react": "^5.1.4",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "tailwindcss": "^4.1.18",
-    "vitepress-plugin-group-icons": "^1.7.1"
+    "next": "16.1.6",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
