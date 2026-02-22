@@ -1,6 +1,6 @@
 {
   "name": "@nuvra-ui/docs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@nuvra-ui/react": "^0.0.10",
+    "@nuvra-ui/react": "^0.0.11",
     "@nuvra-ui/theme": "^0.0.5",
     "next": "16.1.6",
     "nextra": "^4.6.1",
