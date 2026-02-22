@@ -12,6 +12,7 @@ export const metadata = {
     default: "Nuvra-UI | Docs",
     template: `%s - Nuvra-UI`,
   },
+  keywords: ["Nuvra-UI", "React", "Component-Libary"],
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
