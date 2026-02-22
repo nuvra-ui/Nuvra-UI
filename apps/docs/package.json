@@ -9,8 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@nuvra-ui/react": "^0.0.11",
-    "@nuvra-ui/theme": "^0.0.5",
+    "@nuvra-ui/react": "workspace:*",
+    "@nuvra-ui/theme": "workspace:*",
     "next": "16.1.6",
     "nextra": "^4.6.1",
     "nextra-theme-docs": "^4.6.1",

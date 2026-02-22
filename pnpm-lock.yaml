@@ -33,11 +33,11 @@ importers:
   apps/docs:
     dependencies:
       '@nuvra-ui/react':
-        specifier: ^0.0.10
-        version: 0.0.10(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: workspace:*
+        version: link:../../packages/react
       '@nuvra-ui/theme':
-        specifier: ^0.0.5
-        version: 0.0.5
+        specifier: workspace:*
+        version: link:../../packages/theme
       next:
         specifier: 16.1.6
         version: 16.1.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -1276,18 +1276,6 @@ packages:
   '@nolyfill/is-core-module@1.0.39':
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
-
-  '@nuvra-ui/react@0.0.10':
-    resolution: {integrity: sha512-3SSmu9MHvgFYoVuUx+OBm2/t8AcSf/svj6gZZ8bbWFGGk5ub1rLDiqgscZ9ZucqsLVs18V5pvrarzm0qy8jWig==}
-    peerDependencies:
-      react: ^19.2.0
-      react-dom: ^19.2.0
-
-  '@nuvra-ui/theme@0.0.5':
-    resolution: {integrity: sha512-V6hadIV40fDlHQbO/xMz6WdJ/t3x5e5c2A6QDYcMEba5nazSP+AzQkSKB48hR7zz74HDopFzuauJEfdrFF9lCQ==}
-
-  '@nuvra-ui/utils@0.0.1':
-    resolution: {integrity: sha512-8a/Aam+jyvWftl+DHAtn1kQagSiFGNbYQEWCUTpltvv9GMPkhxZWFO/qvwHRwI8KI8pkWdYtEKz/LXzm8eSnhw==}
 
   '@oxc-project/runtime@0.97.0':
     resolution: {integrity: sha512-yH0zw7z+jEws4dZ4IUKoix5Lh3yhqIJWF9Dc8PWvhpo7U7O+lJrv7ZZL4BeRO0la8LBQFwcCewtLBnVV7hPe/w==}
@@ -6767,19 +6755,6 @@ snapshots:
       fastq: 1.20.1
 
   '@nolyfill/is-core-module@1.0.39': {}
-
-  '@nuvra-ui/react@0.0.10(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
-    dependencies:
-      '@nuvra-ui/utils': 0.0.1
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
-
-  '@nuvra-ui/theme@0.0.5': {}
-
-  '@nuvra-ui/utils@0.0.1':
-    dependencies:
-      clsx: 2.1.1
-      tailwind-merge: 3.4.0
 
   '@oxc-project/runtime@0.97.0': {}
 
