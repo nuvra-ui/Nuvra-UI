@@ -8,7 +8,10 @@ import "./globals.css";
 import logo from "./logo.svg";
 
 export const metadata = {
-  // Define your metadata here
+  title: {
+    default: "Nuvra-UI | Docs",
+    template: `%s - Nuvra-UI`,
+  },
   // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
 };
 
@@ -39,7 +42,7 @@ export default async function RootLayout({
       <Head
       // ... Your additional head options
       >
-        {/* Your additional tags should be passed as `children` of `<Head>` element */}
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <body>
         <Layout
