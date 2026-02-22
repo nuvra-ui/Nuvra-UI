@@ -1,6 +1,6 @@
 export default {
   index: "",
-  components: "",
   installation: "",
+  components: "",
   contributing: "",
 };
