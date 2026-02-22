@@ -1,4 +1,4 @@
-ARG NODE_VERSION=24.13.0-slim
+ARG NODE_VERSION=24.13.1-slim
 
 # ============================================
 # STAGE 1: PRUNE REPOSITORY
