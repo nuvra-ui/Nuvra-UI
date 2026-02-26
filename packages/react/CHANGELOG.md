@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.12
+
+### Patch Changes
+
+- [#113](https://github.com/nuvra-ui/Nuvra-UI/pull/113) [`23a3f42`](https://github.com/nuvra-ui/Nuvra-UI/commit/23a3f42f6cc366f884aa0e01ad28469dd739fe2d) Thanks [@Brainlesslukas](https://github.com/Brainlesslukas)! - Textarea component
+
 ## 0.0.11
 
 ### Patch Changes
