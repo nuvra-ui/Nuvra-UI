@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.13
+
+### Patch Changes
+
+- [`7581b35`](https://github.com/nuvra-ui/Nuvra-UI/commit/7581b35cd9ed8f00d729d46a33e482dc27b2bc2e) - Add Status Component. Im wirking on even more components...
+
 ## 0.0.12
 
 ### Patch Changes
