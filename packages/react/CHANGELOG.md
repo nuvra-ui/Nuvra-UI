@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.14
+
+### Patch Changes
+
+- [`57ac19f`](https://github.com/nuvra-ui/Nuvra-UI/commit/57ac19f3ac210acf7368c2a54a96d4ed08dbbf2d) - PIN Input Component
+
 ## 0.0.13
 
 ### Patch Changes
