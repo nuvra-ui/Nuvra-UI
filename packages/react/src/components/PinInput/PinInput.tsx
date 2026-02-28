@@ -1,6 +1,6 @@
 import { cn } from "@nuvra-ui/utils" 
 
-export function PinInput({className, children, ...props}) {
+export function PinInput({className, children, ...props}: React.InputHTMLAttributes<HTMLInputElement>) {
   return (  
     <input 
       className={cn("bg-secondary border-2 text-center text-12 text-xl font-bold border-secondary-foreground rounded-md w-10 h-10", className)} 
