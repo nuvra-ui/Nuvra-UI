@@ -4,7 +4,7 @@ import { PinInput } from "./PinInput";
 
 const meta = {
   component: PinInput,
-} satisfies Meta<typeof Status>;
+} satisfies Meta<typeof PinInput>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
