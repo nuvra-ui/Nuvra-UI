@@ -17,8 +17,13 @@
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-conventional": "^20.3.1",
     "husky": "^9.1.7",
+    "lint-staged": "^16.3.1",
+    "prettier": "3.8.1",
     "turbo": "^2.7.6",
     "typescript": "5.9.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "packageManager": "pnpm@10.28.2",
   "engines": {

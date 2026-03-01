@@ -1,50 +1,40 @@
-import { Callout, Tabs } from 'nextra/components'
+import { Callout, Tabs } from "nextra/components";
 
 # React Setup
+
 To get started, **install the packages** using your preferred package manager:
 
 <Callout type="warning">
-    Make sure you have a fully functional React project set up, and that TailwindCSS is properly integrated into your project for the setup to work
+  Make sure you have a fully functional React project set up, and that
+  TailwindCSS is properly integrated into your project for the setup to work
 </Callout>
 
-<Tabs items={['pnpm', 'npm', 'yarn', 'bun']}>
-  <Tabs.Tab>
-  ```sh
-  pnpm add @nuvra-ui/react @nuvra-ui/theme
-  ```
-  </Tabs.Tab>
-  <Tabs.Tab>
-  ```sh
-  npm install @nuvra-ui/react @nuvra-ui/theme
-  ```
-  </Tabs.Tab>
-  <Tabs.Tab>
-  ```sh
-  yarn add @nuvra-ui/react @nuvra-ui/theme
-  ```
-  </Tabs.Tab>
-  <Tabs.Tab>
-  ```sh
-  bun add @nuvra-ui/react @nuvra-ui/theme
-  ```
-  </Tabs.Tab>
+<Tabs items={["pnpm", "npm", "yarn", "bun"]}>
+  <Tabs.Tab>```sh pnpm add @nuvra-ui/react @nuvra-ui/theme ```</Tabs.Tab>
+  <Tabs.Tab>```sh npm install @nuvra-ui/react @nuvra-ui/theme ```</Tabs.Tab>
+  <Tabs.Tab>```sh yarn add @nuvra-ui/react @nuvra-ui/theme ```</Tabs.Tab>
+  <Tabs.Tab>```sh bun add @nuvra-ui/react @nuvra-ui/theme ```</Tabs.Tab>
 </Tabs>
 
 Next, import the Nuvra-UI theme package into your CSS file and include the `@source` directive (ensure the path to node_modules is correct for your project structure):
+
 ```css {3,5} filename="src/index.css"
 @import "tailwindcss";
 
 @import "@nuvra-ui/theme/styles.css";
 
-@source "../node_modules/@nuvra-ui/react"; 
+@source "../node_modules/@nuvra-ui/react";
 ```
 
 ## Usage
+
 To start using components, simply import them from the `@nuvra-ui/react` package.
 
 ### Your First Component
+
 Here is a quick example of how to use the `Button` component in your project:
-``` tsx filename="MyComponent.tsx"
+
+```tsx filename="MyComponent.tsx"
 import { Button } from "@nuvra-ui/react";
 
 export default function MyComponent() {

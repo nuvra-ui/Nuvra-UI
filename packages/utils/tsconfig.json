@@ -2,7 +2,7 @@
   "extends": "@nuvra-ui/typescript-config/base.json",
   "compilerOptions": {
     "outDir": "dist",
-    "declaration": true,
+    "declaration": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
