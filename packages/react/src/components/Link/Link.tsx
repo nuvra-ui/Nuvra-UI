@@ -9,7 +9,7 @@ export function Link({
     <a
       className={cn(
         "text-primary underline-offset-4 hover:underline",
-        className
+        className,
       )}
       {...props}
     >

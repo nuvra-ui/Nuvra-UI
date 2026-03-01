@@ -10,13 +10,13 @@ const HeroSection = () => {
     gsap.fromTo(
       ".icon",
       { x: -50, opacity: 0 },
-      { x: 0, stagger: 0.2, opacity: 1, duration: 1, ease: "bounce.out" }
+      { x: 0, stagger: 0.2, opacity: 1, duration: 1, ease: "bounce.out" },
     );
     gsap.fromTo(".header", { opacity: 0 }, { opacity: 1, duration: 3 });
     gsap.fromTo(
       ".arrow",
       { y: -20 },
-      { y: -0, repeat: -1, duration: 1, ease: "power1.inOut", yoyo: true }
+      { y: -0, repeat: -1, duration: 1, ease: "power1.inOut", yoyo: true },
     );
   });
 

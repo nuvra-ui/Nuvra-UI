@@ -9,7 +9,7 @@ export function Badge({
     <span
       className={cn(
         "bg-primary text-primary-foreground text-sm px-3 py-1 rounded-full",
-        className
+        className,
       )}
       {...props}
     >
