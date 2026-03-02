@@ -23,7 +23,10 @@
     "typescript": "5.9.2"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": [
+      "turbo run lint --",
+      "prettier --write --ignore-unknown"
+    ]
   },
   "packageManager": "pnpm@10.28.2",
   "engines": {
