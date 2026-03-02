@@ -2,7 +2,6 @@ import { cn } from "@nuvra-ui/utils";
 
 export function PinInput({
   className,
-  children,
   ...props
 }: React.InputHTMLAttributes<HTMLInputElement>) {
   return (
