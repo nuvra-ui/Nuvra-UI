@@ -35,6 +35,12 @@ jobs:
       - name: Build package
         run: pnpm build
 
+      - name: Lint package
+        run: pnpm lint
+
+      - name: Check Prettier formatting
+        run: pnpm format:check
+
       - name: Publish to npm and create Github release
         id: changesets
         uses: changesets/action@v1
