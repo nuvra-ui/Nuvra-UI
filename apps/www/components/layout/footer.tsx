@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "@/public/logo.svg";
 
 const Footer = () => {
   return (
@@ -7,7 +6,7 @@ const Footer = () => {
       <div className="p-4 pt-8 flex max-w-7xl w-full grid grid-cols-4 gap-4">
         <div className="text-lg flex flex-row items-start gap-2">
           <span>
-            <Image src={logo} alt="Logo" width={25} height={25} />
+            <Image src="/logo.svg" alt="Logo" width={25} height={25} />
           </span>
           <span>Nuvra-UI</span>
         </div>
