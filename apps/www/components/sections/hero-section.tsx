@@ -10,12 +10,16 @@ const HeroSection = () => {
         Build flexible, unstyled components - your design, your way.
       </p>
       <div className="pt-3 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
-        <Button className="py-2 px-3 bg-teal-400/90 hover:bg-teal-400 w-40 text-lg">
-          <a href="https://docs.nuvra-ui.com">Start Building</a>
-        </Button>
-        <Button className="py-2 px-3 text-lg w-40 bg-transparent hover:bg-gray-100 border border-gray-400 text-gray-600">
-          <a href="https://github.com/nuvra-ui/nuvra-ui">GitHub</a>
-        </Button>
+        <a href="https://docs.nuvra-ui.com">
+          <Button className="py-2 px-3 bg-teal-400/90 hover:bg-teal-400 w-40 text-lg">
+            Start Building
+          </Button>
+        </a>
+        <a href="https://github.com/nuvra-ui/nuvra-ui">
+          <Button className="py-2 px-3 text-lg w-40 bg-transparent hover:bg-gray-100 border border-gray-400 text-gray-600">
+            GitHub
+          </Button>
+        </a>
       </div>
     </div>
   );
