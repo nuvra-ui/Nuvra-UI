@@ -1,5 +1,5 @@
 services:
-  docks:
+  docs:
     build:
       context: ../../../
       dockerfile: apps/docs/docker/Dockerfile
