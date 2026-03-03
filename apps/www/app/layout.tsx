@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/layout/footer.tsx";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -22,7 +23,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.svg" />
       </head>
-      <body className={rubik.className}>{children}</body>
+      <body className={rubik.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
