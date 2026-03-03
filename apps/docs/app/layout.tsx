@@ -5,8 +5,6 @@ import "nextra-theme-docs/style.css";
 import Image from "next/image";
 import "./globals.css";
 
-import logo from "./logo.svg";
-
 export const metadata = {
   title: {
     default: "Nuvra-UI | Docs",
@@ -20,7 +18,7 @@ const navbar = (
   <Navbar
     logo={
       <span className="flex gap-2">
-        <Image src={logo} alt="Nuvra-UI Logo" width={24} height={24} />
+        <Image src="/logo.svg" alt="Nuvra-UI Logo" width={24} height={24} />
         <h1 className="font-semibold">Nuvra-UI</h1>
       </span>
     }
