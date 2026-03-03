@@ -1,3 +1,5 @@
+import { Button } from "@nuvra-ui/react";
+
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full text-center">
@@ -7,6 +9,14 @@ const HeroSection = () => {
       <p className="-mt-3 text-center text-gray-700 text-base md:text-lg">
         Build flexible, unstyled components - your design, your way.
       </p>
+      <div className="pt-3 flex flex-row space-x-2">
+        <Button className="bg-teal-400/90 hover:bg-teal-400 w-40 text-lg">
+          <a href="https://docs.nuvra-ui.com">Start Building</a>
+        </Button>
+        <Button className="px-3 py-2 text-lg w-40 bg-transparent hover:bg-gray-100 border border-gray-400 text-gray-600">
+          <a href="https://github.com/nuvra-ui/nuvra-ui">GitHub</a>
+        </Button>
+      </div>
     </div>
   );
 };
