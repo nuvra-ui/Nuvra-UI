@@ -45,4 +45,3 @@ COPY --from=builder --chown=node:node /app/apps/www/.next/static ./apps/www/.nex
 USER node
 EXPOSE 3000
 CMD ["node", "apps/www/server.js"]
-
