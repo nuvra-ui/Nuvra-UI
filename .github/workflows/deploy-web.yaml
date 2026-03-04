@@ -18,17 +18,9 @@ jobs:
       name: production
       url: https://nuvra-ui.com
     steps:
-      - name: Trigger Portainer www Redeploy
+      - name: Trigger Portainer Redeploy
         run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.PORTAINER_WEBHOOK_WWW }}")
-          if [ "$response" -ne 200 ] && [ "$response" -ne 204 ]; then
-            echo "Webhook failed with status: $response"
-            exit 1
-          fi
-          echo "Deployment triggered successfully"
-      - name: Trigger Portainder docs Redeploy
-        run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.PORTAINER_WEBHOOK_DOCS }}")
+          response=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.PORTAINER_WEBHOOK_URL }}")
           if [ "$response" -ne 200 ] && [ "$response" -ne 204 ]; then
             echo "Webhook failed with status: $response"
             exit 1
