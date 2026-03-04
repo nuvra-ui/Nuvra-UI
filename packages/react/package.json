@@ -30,7 +30,7 @@
   "devDependencies": {
     "@nuvra-ui/eslint-config": "workspace:*",
     "@nuvra-ui/typescript-config": "workspace:*",
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^10.0.1",
     "@storybook/react": "^10.2.1",
     "@types/node": "^25.3.3",
     "@types/react": "^19.2.5",
