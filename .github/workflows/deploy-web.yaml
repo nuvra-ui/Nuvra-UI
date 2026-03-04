@@ -13,6 +13,10 @@ jobs:
   deploy:
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+
+    environment:
+      name: production
+      url: https://nuvra-ui.com
     steps:
       - name: Trigger Portainer www Redeploy
         run: |
