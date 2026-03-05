@@ -28,15 +28,15 @@
     "@nuvra-ui/utils": "workspace:*"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@nuvra-ui/eslint-config": "workspace:*",
     "@nuvra-ui/typescript-config": "workspace:*",
-    "@eslint/js": "^10.0.1",
     "@storybook/react": "^10.2.15",
     "@types/node": "^25.3.3",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^10.0.2",
+    "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^16.5.0",

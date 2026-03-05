@@ -9,16 +9,16 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@nuvra-ui/theme": "workspace:*",
     "@tailwindcss/vite": "^4.2.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "tailwindcss": "^4.2.1",
-    "@nuvra-ui/theme": "workspace:*"
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
-    "@nuvra-ui/eslint-config": "workspace:*",
     "@chromatic-com/storybook": "^5.0.0",
     "@eslint/js": "^10.0.1",
+    "@nuvra-ui/eslint-config": "workspace:*",
     "@storybook/addon-a11y": "^10.2.15",
     "@storybook/addon-docs": "^10.2.15",
     "@storybook/react-vite": "^10.2.1",
@@ -26,7 +26,7 @@
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
-    "eslint": "^10.0.2",
+    "eslint": "^9.39.2",
     "eslint-plugin-storybook": "^10.2.1",
     "globals": "^16.5.0",
     "storybook": "^10.2.1",
