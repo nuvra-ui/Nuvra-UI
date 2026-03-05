@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nuvra-ui/Nuvra-UI/refs/heads/main/apps/docs/content/public/NuvraUIBannerSmall.svg" alt="Nuvra-UI Banner"/>
-
+# Nuvra-UI
 ### Build flexible, unstyled components — your design, your way.
 
 [![Website](https://img.shields.io/badge/Website-nuvra--ui.com-blue)](https://nuvra-ui.com) [![Docs](https://img.shields.io/badge/Documentation-docs-green)](https://docs.nuvra-ui.com)
@@ -9,42 +8,9 @@
 
 </div>
 
-## Installation
+## Documentation
 
-```sh
-pnpm install @nuvra-ui/react @nuvra-ui/theme
-```
-
-More installation methods in the [Docs](https://docs.nuvra-ui.com/introduction/getting-started.html).
-
-Then import the Nuvra-UI theme package in your CSS file:
-
-```css
-/* src/index.css */
-@import "tailwindcss";
-
-@import "@nuvra-ui/theme/styles.css";
-
-...
-```
-
-## Usage
-
-Here is a quick example of how to use the Button component in your project:
-
-```tsx
-// MyComponent.tsx
-import { Button } from "@nuvra-ui/react";
-
-export default function MyComponent() {
-  return (
-    <div className="flex gap-4 p-4">
-      <Button>Click me</Button>
-      <Button className="bg-green-200">Hello World</Button>
-    </div>
-  );
-}
-```
+Visit https://docs.nuvra-ui.com view the documentation.
 
 ## Component Overview
 
