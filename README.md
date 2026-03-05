@@ -1,5 +1,5 @@
 <div align="center">
-# Nuvra-UI
+## Nuvra-UI
 ### Flexible, minimally styled components — your design, your way.
 
 [![Website](https://img.shields.io/badge/Website-nuvra--ui.com-blue)](https://nuvra-ui.com) [![Docs](https://img.shields.io/badge/Documentation-docs-green)](https://docs.nuvra-ui.com)
