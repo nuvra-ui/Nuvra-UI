@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuvra-ui/theme": "workspace:*",
     "@tailwindcss/vite": "^4.2.1",
-    "react": "^19.2.0",
+    "react": "^19.2.4",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4.2.1"
   },
@@ -23,7 +23,7 @@
     "@storybook/addon-docs": "^10.2.15",
     "@storybook/react-vite": "^10.2.1",
     "@types/node": "^25.3.3",
-    "@types/react": "^19.2.5",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^9.39.2",
