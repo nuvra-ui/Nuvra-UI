@@ -7,7 +7,7 @@ const HeroSection = () => {
         Nuvra-UI
       </h1>
       <p className="-mt-3 text-center text-gray-700 text-base md:text-lg">
-        Build flexible, unstyled components - your design, your way.
+        Flexible, minimally styled components - your design, your way.
       </p>
       <div className="pt-3 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
         <a href="https://docs.nuvra-ui.com">
