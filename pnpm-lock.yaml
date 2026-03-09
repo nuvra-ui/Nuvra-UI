@@ -113,8 +113,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/eslint-config
       '@storybook/addon-a11y':
-        specifier: ^10.2.15
-        version: 10.2.15(storybook@10.2.1(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
+        specifier: ^10.2.16
+        version: 10.2.16(storybook@10.2.1(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
       '@storybook/addon-docs':
         specifier: ^10.2.15
         version: 10.2.15(@types/react@19.2.14)(esbuild@0.27.2)(rollup@4.57.0)(storybook@10.2.1(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(yaml@2.8.2))
@@ -1606,10 +1606,10 @@ packages:
     resolution: {integrity: sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==}
     engines: {node: '>=18'}
 
-  '@storybook/addon-a11y@10.2.15':
-    resolution: {integrity: sha512-lhWG4NbR1o0AOzrCucz2m3AU5pmNSzN4lC7Q2wHjpDSgXokz5xzGvilYlDzCuEvsyPFiivOBx1igwSWdIV4BTw==}
+  '@storybook/addon-a11y@10.2.16':
+    resolution: {integrity: sha512-mdAOhAHMaeN9bLRpuW03p3UAiL0DZSa/uqHWR5Y1usCvslA6zBn23HnD8si6nhKTnjnSbXv/S4W6H8OVmlbmtg==}
     peerDependencies:
-      storybook: ^10.2.15
+      storybook: ^10.2.16
 
   '@storybook/addon-docs@10.2.15':
     resolution: {integrity: sha512-gZ1tLXS9HycIt99cKfkAS7D2Arv/vlSZN0YJlQ/8Hurvnsah2NrxZkRbSx4S7HBzZ23u0CMIoXnFlinGYNWQNA==}
@@ -7039,7 +7039,7 @@ snapshots:
 
   '@simple-libs/stream-utils@1.2.0': {}
 
-  '@storybook/addon-a11y@10.2.15(storybook@10.2.1(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))':
+  '@storybook/addon-a11y@10.2.16(storybook@10.2.1(@testing-library/dom@10.4.1)(prettier@3.8.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))':
     dependencies:
       '@storybook/global': 5.0.0
       axe-core: 4.11.1
