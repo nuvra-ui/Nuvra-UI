@@ -8,7 +8,7 @@ export function Highlight({
   return (
     <span
       className={cn(
-        "px-2 py-1 rounded-sm bg-orange-500/35 text-orange-500 font-semibold",
+        "px-2 py-1 rounded-xs bg-orange-500/35 text-orange-500 font-semibold",
         className,
       )}
       {...props}
