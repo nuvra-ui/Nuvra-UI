@@ -31,7 +31,7 @@
     "@eslint/js": "^10.0.1",
     "@nuvra-ui/eslint-config": "workspace:*",
     "@nuvra-ui/typescript-config": "workspace:*",
-    "@storybook/react": "^10.2.15",
+    "@storybook/react": "^10.2.19",
     "@types/node": "^25.3.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
