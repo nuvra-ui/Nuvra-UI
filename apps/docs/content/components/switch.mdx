@@ -1,8 +1,61 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
 import { Switch } from "@nuvra-ui/react";
 
 # Switch
 
+A switch is a UI component that lets users toggle a setting between two states.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Switch />
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="SwitchDemo.tsx"
+      import { PinInput } from "@nuvra-ui/react";
+      
+      export function SwitchDemo() {
+        return (
+         <Switch /> 
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Switch } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="SwitchDemo.tsx"
+import { Switch } from "@nuvra-ui/react";
+
+export function SwitchDemo() {
+  return (
+    <div className="flex flex-row gap-2 items-center">
+      <p>Activate</p>
+      <Switch />
+    </div>
+  );
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <Switch />
+  <div className="flex flex-row gap-2 items-center">
+    <p>Activate</p>
+    <Switch />
+  </div>
 </ComponentPreview>
+</Steps>

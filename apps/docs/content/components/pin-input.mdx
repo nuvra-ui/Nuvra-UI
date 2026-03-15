@@ -1,13 +1,63 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
 import { PinInput } from "@nuvra-ui/react";
 
 # PIN Input
 
+A PIN Input is a form component on a website or app that allows users to enter a short numeric code, usually for verification or authentication.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <div className="flex gap-1">
+        <PinInput defaultValue="2" />
+        <PinInput defaultValue="8" />
+        <PinInput defaultValue="1" />
+        <PinInput defaultValue="0" />    
+      </div>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="PinInputDemo.tsx"
+      import { PinInput } from "@nuvra-ui/react";
+      
+      export function PinInputDemo() {
+        return (
+          <div className="flex gap-1">
+            <PinInput defaultValue="2" />
+            <PinInput defaultValue="8" />
+            <PinInput defaultValue="1" />
+            <PinInput defaultValue="0" />    
+          </div>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { PinInput } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="PinInputDemo.tsx"
+import { PinInput } from "@nuvra-ui/react";
+
+export function PinInputDemo() {
+  return <PinInput defaultValue="2" />;
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <div className="flex-row space-x-1">
-    <PinInput defaultValue="2" />
-    <PinInput defaultValue="8" />
-    <PinInput defaultValue="1" />
-    <PinInput defaultValue="0" />
-  </div>
+  <PinInput defaultValue="2" />
 </ComponentPreview>
+</Steps>
