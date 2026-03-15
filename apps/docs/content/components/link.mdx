@@ -1,8 +1,63 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
 import { Link } from "@nuvra-ui/react";
 
 # Link
 
+A link component on a website is a clickable element that takes the user to another page, section, or external resource when selected.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Link href="https://gitub.com/nuvra-ui/nuvra-ui">Link</Link>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="BadgeDemo.tsx"
+      import { Link } from "@nuvra-ui/react";
+      
+      export function LinkDemo() {
+        return (
+          <Link href="https://gitub.com/nuvra-ui/nuvra-ui">Link</Link>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Link } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="LinkDemo.tsx"
+import { Link } from "@nuvra-ui/react";
+
+export function BadgeDemo() {
+  return (
+    <div className="flex flex-col gap-2">
+      <Link className="underline" href="https://github.com/nuvra-ui/nuvra-ui">
+        Link (Underline)
+      </Link>
+      <Link href="https://github.com/nuvra-ui/nuvra-ui">Link (Plain)</Link>
+    </div>
+  );
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <Link>Link</Link>
+  <div className="flex flex-col gap-2">
+    <Link href="https://github.com/nuvra-ui/nuvra-ui" className="underline">Link (Underline)</Link>
+    <Link href="https://github.com/nuvra-ui/nuvra-ui">Link (Plain)</Link>
+  </div>
 </ComponentPreview>
+</Steps>
