@@ -21,7 +21,7 @@
     "@nuvra-ui/eslint-config": "workspace:*",
     "@storybook/addon-a11y": "^10.2.15",
     "@storybook/addon-docs": "^10.2.15",
-    "@storybook/react-vite": "^10.2.1",
+    "@storybook/react-vite": "^10.2.19",
     "@types/node": "^25.3.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
