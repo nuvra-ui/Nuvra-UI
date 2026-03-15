@@ -1,11 +1,95 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
-import { Status } from "@nuvra-ui/react";
+import { Tabs, Steps } from "nextra/components";
+import { PinInput, Status } from "@nuvra-ui/react";
 
 # Status
 
+A status dot is a small colored indicator on a website or app that visually shows the current status of something.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <div className="flex justify-center items-center space-x-1">
+        <Status />
+        <p className="text-sm">Success</p>
+      </div>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="StatusDemo.tsx"
+      import { PinInput } from "@nuvra-ui/react";
+      
+      export function StatusDemo() {
+        return (
+          <div className="flex justify-center items-center space-x-1">
+            <Status />
+            <p className="text-sm">Success</p>
+          </div>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Status } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="StatusDemo.tsx"
+import { PinInput } from "@nuvra-ui/react";
+
+export function StatusDemo() {
+  return (
+    <div className="flex gap-4">
+      <div className="flex justify-center items-center gap-1">
+        <Status />
+        <p className="text-sm">Success</p>
+      </div>
+      <div className="flex justify-center items-center gap-1">
+        <Status className="bg-orange-400" />
+        <p className="text-sm">Loading</p>
+      </div>
+      <div className="flex justify-center items-center gap-1">
+        <Status className="bg-blue-500" />
+        <p className="text-sm">Info</p>
+      </div>
+      <div className="flex justify-center items-center gap-1">
+        <Status className="bg-red-600" />
+        <p className="text-sm">Error</p>
+      </div>
+    </div>
+  );
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <div className="flex justify-center items-center space-x-1">
-    <Status />
-    <p className="text-sm">Success</p>
+  <div className="flex gap-4">
+    <div className="flex justify-center items-center gap-1">
+      <Status />
+      <p className="text-sm">Success</p>
+    </div>
+    <div className="flex justify-center items-center gap-1">
+      <Status className="bg-orange-400"/>
+      <p className="text-sm">Loading</p>
+    </div>
+    <div className="flex justify-center items-center gap-1">
+      <Status className="bg-blue-500"/>
+      <p className="text-sm">Info</p>
+    </div>
+    <div className="flex justify-center items-center gap-1">
+      <Status className="bg-red-600"/>
+      <p className="text-sm">Error</p>
+    </div>
   </div>
 </ComponentPreview>
+</Steps>
