@@ -14,36 +14,41 @@ An interactive component to allow users to perform actions.
     </ComponentPreview>
   </Tabs.Tab>
   <Tabs.Tab>
-    ```tsx filename="BadgeDemo.tsx"
-      import { Button } from "@nuvra-ui/react";
-      
-      export function ButtonDemo() {
-        return (
-          <Button>Click me!</Button>
-        )
-      }
-    ```
+```tsx filename="BadgeDemo.tsx"
+  import { Button } from "@nuvra-ui/react";
+  
+  export function ButtonDemo() {
+    return (
+      <Button>Click me!</Button>
+    )
+  }
+```
   </Tabs.Tab>
 </Tabs>
 
 ## Setup
 
 <Steps>
-  ### Import the component
-  ```tsx
-  import { Button } from "@nuvra-ui/react"; 
-  ``` 
-  ### Customize the component Style
-  ```tsx filename="BadgeDemo.tsx"
-  import { Button } from "@nuvra-ui/react";
+### Import the component
+```tsx
+import { Button } from "@nuvra-ui/react"; 
+``` 
+### Customize the component Style
+```tsx filename="BadgeDemo.tsx"
+import { Button } from "@nuvra-ui/react";
 
 export function ButtonDemo() {
-return (
-<div className="flex gap-4">
-<Button className="bg-white hover:bg-gray-200 border border-gray-400 text-gray-600">Nuvra-UI</Button>
-<Button className="gap-2">Icon<FaArrowRight /></Button>
-</div>
-);
+  return (
+    <div className="flex gap-4">
+      <Button className="bg-white hover:bg-gray-200 border border-gray-400 text-gray-600">
+        Nuvra-UI
+      </Button>
+      <Button className="gap-2">
+        Icon
+        <FaArrowRight />
+      </Button>
+    </div>
+  );
 }
 
 ```
