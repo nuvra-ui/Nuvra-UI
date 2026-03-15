@@ -1,6 +1,6 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { Tabs, Steps } from "nextra/components";
-import { Button, Badge } from "@nuvra-ui/react";
+import { Button } from "@nuvra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 
 # Button
@@ -37,13 +37,13 @@ An interactive component to allow users to perform actions.
   ```tsx filename="BadgeDemo.tsx"
   import { Button } from "@nuvra-ui/react";
 
-export function BadgeDemo() {
-  return (
-    <div className="flex gap-4">
-      <Button className="bg-white hover:bg-gray-200 border border-gray-400 text-gray-600">Nuvra-UI</Button>
-      <Button className="gap-2">Icon<FaArrowRight /></Button>
-    </div>
-  );
+export function ButtonDemo() {
+return (
+<div className="flex gap-4">
+<Button className="bg-white hover:bg-gray-200 border border-gray-400 text-gray-600">Nuvra-UI</Button>
+<Button className="gap-2">Icon<FaArrowRight /></Button>
+</div>
+);
 }
 
 ```
@@ -55,3 +55,4 @@ export function BadgeDemo() {
   </div>
 </ComponentPreview>
 </Steps>
+```
