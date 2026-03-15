@@ -1,11 +1,63 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
-import { Tooltip } from "@nuvra-ui/react";
-import { Button } from "@nuvra-ui/react";
+import { Tabs, Steps } from "nextra/components";
+import { Tooltip, Button } from "@nuvra-ui/react";
 
 # Tooltip
 
+A tooltip is a small pop-up box that appears when a user hovers over or focuses on an element, providing additional information.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Tooltip content="Tooltip content">
+        <Button>Hover me</Button>
+      </Tooltip>    
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="TooltipDemo.tsx"
+      import { Link } from "@nuvra-ui/react";
+      
+      export function TooltipDemo() {
+        return (
+          <Tooltip content="Tooltip content">
+            <Button>Hover me</Button>
+          </Tooltip>         
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Tooltip } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="TooltipDemo.tsx"
+import { Tooltip } from "@nuvra-ui/react";
+
+export function TooltipDemo() {
+  return (
+    <Tooltip content="Click the Button">
+      <Button>Button</Button>
+    </Tooltip>
+  );
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <Tooltip content="Tooltip content">
-    <Button>Hover me</Button>
+  <Tooltip content="Click the Button">
+    <Button>Button</Button>
   </Tooltip>
 </ComponentPreview>
+</Steps>
