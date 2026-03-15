@@ -1,8 +1,53 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
-import { Textarea } from "@nuvra-ui/react";
+import { Tabs, Steps } from "nextra/components";
+import { Switch, Textarea } from "@nuvra-ui/react";
 
 # Textarea
 
+A textarea is an input area on a website where users can type and enter text or data.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Textarea rows="6" cols="35" placeholder="Hello World..." className="resize-none"/>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="TextareaDemo.tsx"
+      import { PinInput } from "@nuvra-ui/react";
+      
+      export function TextareaDemo() {
+        return (
+          <Textarea rows="6" cols="35" placeholder="Hello World..." className="resize-none"/>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Textarea } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="TextareaDemo.tsx"
+import { Textarea } from "@nuvra-ui/react";
+
+export function SwitchDemo() {
+  return <Textarea rows="4" cols="35" placeholder="I am resizable :)" />;
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  <Textarea rows="6" cols="35" placeholder="Hello World..." />
+  <Textarea rows="4" cols="35" placeholder="I am resizable :)" />
 </ComponentPreview>
+</Steps>
