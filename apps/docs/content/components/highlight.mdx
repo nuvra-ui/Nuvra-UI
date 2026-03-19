@@ -1,8 +1,66 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
-import { Highlight } from "@nuvra-ui/react";
+import { Tabs, Steps } from "nextra/components";
+import { Button, Highlight } from "@nuvra-ui/react";
 
 # Highlight
 
+An interactive component to allow users to perform actions.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      Hello, i am an <Highlight>Highlight</Highlight>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="HighlightDemo.tsx"
+      import { Highlight } from "@nuvra-ui/react";
+      
+      export function HighlightDemo() {
+        return (
+          Hello, i am an <Highlight>Highlight</Highlight>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Highlight } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="HighlightDemo.tsx"
+import { Highlight } from "@nuvra-ui/react";
+
+export function HighlightDemo() {
+  return (
+    <div className="flex gap-4">
+      <Highlight className="bg-green-500/35 text-green-500">Green</Highlight>
+      <Highlight className="bg-blue-500/35 text-blue-500">Blue</Highlight>
+      <Highlight className="bg-pink-500/35 text-pink-500">Pink</Highlight>
+      <Highlight className="rounded-md">Rounded</Highlight>
+    </div>
+  );
+}
+```
+
+### Preview the component
+
 <ComponentPreview>
-  Hello, i am an <Highlight>Highlight</Highlight>
+  <div className="flex gap-4">
+    <Highlight className="bg-green-500/35 text-green-500">Green</Highlight>
+    <Highlight className="bg-blue-500/35 text-blue-500">Blue</Highlight>
+    <Highlight className="bg-pink-500/35 text-pink-500">Pink</Highlight>
+    <Highlight className="rounded-md">Rounded</Highlight>
+  </div>
 </ComponentPreview>
+
+</Steps>
