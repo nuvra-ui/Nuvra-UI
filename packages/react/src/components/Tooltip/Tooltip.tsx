@@ -1,6 +1,6 @@
 type Props = React.HTMLAttributes<HTMLDivElement> & {
-  content;
-  children;
+  content: React.ReactNode;
+  children: React.ReactNode;
   placement?: "right" | "left" | "bottom" | "top";
 };
 
