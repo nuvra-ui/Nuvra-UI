@@ -1,13 +1,27 @@
+type Props = React.HTMLAttributes<HTMLDivElement> & {
+  content: React.ReactNode;
+  children: React.ReactNode;
+  placement?: "right" | "left" | "bottom" | "top";
+};
+
 export function Tooltip({
   content,
   children,
+  placement = "top",
   ...props
-}: React.HTMLAttributes<HTMLDivElement> & { content: React.ReactNode }) {
+}: Props) {
+  const placementClasses = {
+    top: "bottom-full mb-1 left-1/2 -translate-x-1/2",
+    bottom: "top-full mt-1 left-1/2 -translate-x-1/2",
+    left: "right-full mr-1 top-1/2 -translate-y-1/2",
+    right: "left-full ml-1 top-1/2 -translate-y-1/2",
+  };
+
   return (
     <div className="group relative flex flex-col items-center">
       {children}
       <div
-        className="hidden group-hover:block bg-primary/90 absolute bottom-full mb-1 text-white rounded-sm text-sm py-[2px] px-1 whitespace-nowrap"
+        className={`${placementClasses[placement]} hidden group-hover:block bg-primary/90 absolute text-white rounded-sm text-sm py-[2px] px-1 whitespace-nowrap`}
         {...props}
       >
         {content}
