@@ -1,4 +1,4 @@
-type Props = React.HHTMLAttributes<HTMLDivElement> & {
+type Props = React.HTMLAttributes<HTMLDivElement> & {
   content;
   children;
   placement?: "right" | "left" | "bottom" | "top";
