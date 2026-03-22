@@ -3,7 +3,7 @@
 import { Button, Badge } from "@nuvra-ui/react";
 import { CiStar } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
-import useGithubStars from "../../hooks/useGithubStars.ts";
+import useGithubStars from "../../hooks/useGithubStars";
 
 const HeroSection = () => {
   const { stars } = useGithubStars();
