@@ -12,7 +12,7 @@
 
 ## Documentation
 
-Visit https://docs.nuvra-ui.com view the documentation.
+Visit https://docs.nuvra-ui.com to view the documentation.
 
 ## Component Overview
 
