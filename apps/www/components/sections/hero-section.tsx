@@ -1,8 +1,13 @@
+"use client";
+
 import { Button, Badge } from "@nuvra-ui/react";
 import { CiStar } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import useGithubStars from "../../hooks/useGithubStars.ts";
 
 const HeroSection = () => {
+  const { stars } = useGithubStars();
+
   return (
     <div className="flex flex-col items-center justify-center w-full text-center">
       <h1 className="text-7xl md:text-9xl font-bold bg-linear-to-r from-teal-400 to-yellow-200 bg-clip-text text-transparent">
@@ -22,7 +27,7 @@ const HeroSection = () => {
             <FaGithub />
             <p>GitHub</p>
             <p className="flex flex-row items-center font-light">
-              3 <CiStar />
+              {stars} <CiStar />
             </p>
           </Button>
         </a>
