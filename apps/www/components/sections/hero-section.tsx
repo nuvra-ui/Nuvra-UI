@@ -1,4 +1,6 @@
 import { Button, Badge } from "@nuvra-ui/react";
+import { CiStar } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -16,8 +18,12 @@ const HeroSection = () => {
           </Button>
         </a>
         <a href="https://github.com/nuvra-ui/nuvra-ui">
-          <Button className="py-2 px-3 text-lg w-40 bg-transparent hover:bg-gray-100 border border-gray-400 text-gray-600">
-            GitHub
+          <Button className="gap-2 py-2 px-3 text-lg w-40 bg-transparent hover:bg-gray-100 border border-gray-400 text-gray-600">
+            <FaGithub />
+            <p>GitHub</p>
+            <p className="flex flex-row items-center font-light">
+              3 <CiStar />
+            </p>
           </Button>
         </a>
       </div>
