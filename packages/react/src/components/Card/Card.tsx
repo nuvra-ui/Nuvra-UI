@@ -1,6 +1,6 @@
 import { cn } from "@nuvra-ui/utils";
 
-function Card({ children, className, props }: React.ComponentProps<"div">) {
+function Card({ children, className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       className={cn(
@@ -14,7 +14,11 @@ function Card({ children, className, props }: React.ComponentProps<"div">) {
   );
 }
 
-function CardHeader({ children, className, props }: React.ComponentProps<"p">) {
+function CardHeader({
+  children,
+  className,
+  ...props
+}: React.ComponentProps<"p">) {
   return (
     <p className={cn("pt-3 px-3 font-semibold text-2xl", className)} {...props}>
       {children}
@@ -25,7 +29,7 @@ function CardHeader({ children, className, props }: React.ComponentProps<"p">) {
 function CardContent({
   children,
   className,
-  props,
+  ...props
 }: React.ComponentProps<"div">) {
   return (
     <div className={cn("py-3 px-3 text-justify", className)} {...props}>
@@ -37,7 +41,7 @@ function CardContent({
 function CardFooter({
   children,
   className,
-  props,
+  ...props
 }: React.ComponentProps<"div">) {
   return (
     <div className={cn("pb-3 px-3 text-sm", className)} {...props}>

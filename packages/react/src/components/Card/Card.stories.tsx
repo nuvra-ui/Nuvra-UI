@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardFooter } from "./Card";
 
 const meta = {
   component: Card,
-} satisfies Meta<typeof Link>;
+} satisfies Meta<typeof Card>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
