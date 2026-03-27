@@ -1,6 +1,12 @@
 import { ComponentPreview } from "@/components/ComponentPreview";
 import { Tabs, Steps } from "nextra/components";
-import { Card, CardHeader, CardContent, CardFooter } from "@nuvra-ui/react";
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardFooter,
+  Button,
+} from "@nuvra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 
 # Card
@@ -8,11 +14,11 @@ import { FaArrowRight } from "react-icons/fa";
 <Tabs items={['Preview', 'Usage']}>
   <Tabs.Tab>
     <ComponentPreview>
-      <Card>
+      <Card className="w-64">
         <CardHeader>Nuvra-UI</CardHeader>
         <CardContent>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum
-          laoreet nulla, 
+          laoreet nulla 
         </CardContent>
         <CardFooter>by brainlesslukas</CardFooter>
       </Card>
@@ -36,3 +42,53 @@ import { FaArrowRight } from "react-icons/fa";
     ```
   </Tabs.Tab>
 </Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import { Card, CardHeader, CardContent, CardFooter } from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="CardDemo.tsx"
+import { Button } from "@nuvra-ui/react";
+
+export function ButtonDemo() {
+  return (
+    <Card>
+      <CardHeader>Hello! How are you?</CardHeader>
+      <CardContent className="text-sm text-gray-600">
+        This is the card body. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Curabitur nec odio vel dui euismod fermentum. Curabitur
+        nec odio vel dui euismod fermentum.
+      </CardContent>
+      <CardFooter className="mt-auto flex justify-end">
+        <Button>Click me!</Button>
+      </CardFooter>
+    </Card>
+  );
+}
+```
+
+### Preview the component
+
+<ComponentPreview>
+  <Card>
+    <CardHeader>Hello! How are you?</CardHeader>
+    <CardContent className="text-sm text-gray-600">
+      This is the card body. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Curabitur nec odio vel dui euismod fermentum. Curabitur nec odio vel
+      dui euismod fermentum.
+    </CardContent>
+    <CardFooter className="mt-auto flex justify-end">
+      <Button>Click me!</Button>
+    </CardFooter>
+  </Card>
+</ComponentPreview>
+
+</Steps>
