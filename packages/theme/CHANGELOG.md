@@ -1,5 +1,11 @@
 # @nuvra-ui/theme
 
+## 0.0.6
+
+### Patch Changes
+
+- [`842b458`](https://github.com/nuvra-ui/Nuvra-UI/commit/842b458496e49223ed71de32c1aba7b38a347cbb) - In this Release I added many new components, the theme package got new colors and many other amazing things.
+
 ## 0.0.5
 
 ### Patch Changes
