@@ -7,3 +7,4 @@ export { Status } from "./components/Status/Status";
 export { PinInput } from "./components/PinInput/PinInput";
 export { Tooltip } from "./components/Tooltip/Tooltip";
 export { Highlight } from "./components/Highlight/Highlight";
+export * from "./components/Card/Card";

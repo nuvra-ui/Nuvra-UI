@@ -1,0 +1,38 @@
+import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
+import { Card, CardHeader, CardContent, CardFooter } from "@nuvra-ui/react";
+import { FaArrowRight } from "react-icons/fa";
+
+# Card
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Card>
+        <CardHeader>Nuvra-UI</CardHeader>
+        <CardContent>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum
+          laoreet nulla, 
+        </CardContent>
+        <CardFooter>by brainlesslukas</CardFooter>
+      </Card>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="CardDemo.tsx"
+      import { Card, CardHeader, CardContent, CardFooter } from "@nuvra-ui/react";
+      
+      export function ButtonDemo() {
+        return (
+          <Card>
+            <CardContent>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum
+              laoreet nulla, 
+            </CardContent>
+            <CardFooter>by brainlesslukas</CardFooter>
+          </Card>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
