@@ -9,8 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@nuvra-ui/react": "^0.0.15",
-    "@nuvra-ui/theme": "^0.0.6",
+    "@nuvra-ui/react": "workspace:*",
+    "@nuvra-ui/theme": "workspace:*",
     "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.3",
