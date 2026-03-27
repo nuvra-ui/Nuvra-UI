@@ -32,7 +32,7 @@ function CardContent({
   ...props
 }: React.ComponentProps<"div">) {
   return (
-    <div className={cn("px-3 text-justify", className)} {...props}>
+    <div className={cn("px-3", className)} {...props}>
       {children}
     </div>
   );
