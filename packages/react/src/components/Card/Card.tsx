@@ -4,7 +4,7 @@ function Card({ children, className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       className={cn(
-        "flex flex-col bg-secondary w-80 rounded-md border border-gray-400",
+        "flex flex-col bg-secondary w-80 rounded-md border border-border shadow-xs",
         className,
       )}
       {...props}
