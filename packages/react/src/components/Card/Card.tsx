@@ -20,7 +20,7 @@ function CardHeader({
   ...props
 }: React.ComponentProps<"p">) {
   return (
-    <p className={cn("pt-3 px-3 font-semibold text-2xl", className)} {...props}>
+    <p className={cn("pt-1 px-3 font-semibold text-2xl", className)} {...props}>
       {children}
     </p>
   );
@@ -32,7 +32,7 @@ function CardContent({
   ...props
 }: React.ComponentProps<"div">) {
   return (
-    <div className={cn("py-3 px-3 text-justify", className)} {...props}>
+    <div className={cn("px-3 text-justify", className)} {...props}>
       {children}
     </div>
   );
@@ -44,7 +44,7 @@ function CardFooter({
   ...props
 }: React.ComponentProps<"div">) {
   return (
-    <div className={cn("pb-3 px-3 text-sm", className)} {...props}>
+    <div className={cn("p-1 px-3 text-sm", className)} {...props}>
       {children}
     </div>
   );
