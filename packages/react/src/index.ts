@@ -8,3 +8,4 @@ export { PinInput } from "./components/PinInput/PinInput";
 export { Tooltip } from "./components/Tooltip/Tooltip";
 export { Highlight } from "./components/Highlight/Highlight";
 export * from "./components/Card/Card";
+export * from "./components/Breadcrumb/Breadcrumb";
