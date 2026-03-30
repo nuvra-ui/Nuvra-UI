@@ -53,3 +53,9 @@ storybook-static
 cache
 next-env.d.ts
 _pagefind
+
+# NixOS Stuff
+flake.nix
+flake.lock
+.envrc
+.direnv
