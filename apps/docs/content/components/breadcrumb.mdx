@@ -1,0 +1,105 @@
+import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbSeparator,
+} from "@nuvra-ui/react";
+import { FaArrowRight } from "react-icons/fa";
+import { RiHome2Line } from "react-icons/ri";
+import { LuToyBrick } from "react-icons/lu";
+
+# Breadcrumb
+
+A breadcrumb is a component that reveals a user's current location within a website.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Breadcrumb>
+        <BreadcrumbItem>Nuvra-UI</BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem>Components</BreadcrumbItem>
+        <BreadcrumbSeparator />
+        <BreadcrumbItem currentItem={true}>Breadcrumb</BreadcrumbItem>
+      </Breadcrumb>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="BreadcrumbDemo.tsx"
+      import { Breadcrumb, BreadcrumbItem, BreadcrumbSeparator } from "@nuvra-ui/react";
+      
+      export function BreadcrumbDemo() {
+        return (
+          <Breadcrumb>
+            <BreadcrumbItem>Nuvra-UI</BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>Components</BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem currentItem={true}>Breadcrumb</BreadcrumbItem>
+          </Breadcrumb>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbSeparator,
+} from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="BreadcrumbDemo.tsx"
+import { Button } from "@nuvra-ui/react";
+
+export function BreadcrumbDemo() {
+  return (
+    <Breadcrumb>
+      <BreadcrumbItem>
+        <RiHome2Line /> Nuvra-UI
+      </BreadcrumbItem>
+      <BreadcrumbSeparator />
+      <BreadcrumbItem>
+        <LuToyBrick />
+        Components
+      </BreadcrumbItem>
+      <BreadcrumbSeparator />
+      <BreadcrumbItem currentItem={true} href="https://github.com/nuvra-ui">
+        Click me!
+      </BreadcrumbItem>
+    </Breadcrumb>
+  );
+}
+```
+
+### Preview the component
+
+<ComponentPreview>
+  <Breadcrumb>
+    <BreadcrumbItem>
+      <RiHome2Line /> Nuvra-UI
+    </BreadcrumbItem>
+    <BreadcrumbSeparator />
+    <BreadcrumbItem>
+      <LuToyBrick />
+      Components
+    </BreadcrumbItem>
+    <BreadcrumbSeparator />
+    <BreadcrumbItem currentItem={true} href="https://github.com/nuvra-ui">
+      Click me!
+    </BreadcrumbItem>
+  </Breadcrumb>
+</ComponentPreview>
+
+</Steps>

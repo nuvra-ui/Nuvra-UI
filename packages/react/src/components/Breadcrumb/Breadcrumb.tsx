@@ -28,7 +28,7 @@ function BreadcrumbItem({
   return (
     <a
       className={cn(
-        "underline-offset-4 hover:underline",
+        "underline-offset-4 hover:underline flex flex-row items-center justify-center gap-1",
         currentItem ? "text-primary" : "",
         className,
       )}
