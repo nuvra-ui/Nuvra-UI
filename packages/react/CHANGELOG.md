@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.16
+
+### Patch Changes
+
+- [#173](https://github.com/nuvra-ui/Nuvra-UI/pull/173) [`9e2d226`](https://github.com/nuvra-ui/Nuvra-UI/commit/9e2d226df079e409924dab58b998933c4dd8628d) Thanks [@Brainlesslukas](https://github.com/Brainlesslukas)! - In this version I added the breadcrumb component
+
 ## 0.0.15
 
 ### Patch Changes
