@@ -1,5 +1,11 @@
 # @nuvra-ui/react
 
+## 0.0.17
+
+### Patch Changes
+
+- [`2d6a6c8`](https://github.com/nuvra-ui/Nuvra-UI/commit/2d6a6c84085c76ef69188d9260513359b0ada4b8) - In this release i added an Pagination component :)
+
 ## 0.0.16
 
 ### Patch Changes
