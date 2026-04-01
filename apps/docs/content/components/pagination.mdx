@@ -1,0 +1,101 @@
+import { ComponentPreview } from "@/components/ComponentPreview";
+import { Tabs, Steps } from "nextra/components";
+import {
+  Highlight,
+  Pagination,
+  PaginationItem,
+  PaginationNextTrigger,
+  PaginationPrevTrigger,
+} from "@nuvra-ui/react";
+
+# Pagination
+
+Pagination is a sequence of links that allows users to navigate through multi-page content.
+
+<Tabs items={['Preview', 'Usage']}>
+  <Tabs.Tab>
+    <ComponentPreview>
+      <Pagination>
+        <PaginationPrevTrigger />
+        <PaginationItem>1</PaginationItem>
+        <PaginationItem>2</PaginationItem>
+        <PaginationItem>3</PaginationItem>
+        <PaginationItem>4</PaginationItem>
+        <PaginationItem>5</PaginationItem>
+        <PaginationItem>6</PaginationItem>
+        <PaginationNextTrigger />
+      </Pagination>
+    </ComponentPreview>
+  </Tabs.Tab>
+  <Tabs.Tab>
+    ```tsx filename="PaginationDemo.tsx"
+      import { Highlight } from "@nuvra-ui/react";
+      
+      export function PaginationDemo() {
+        return (
+          <Pagination>
+            <PaginationPrevTrigger />
+            <PaginationItem>1</PaginationItem>
+            <PaginationItem>2</PaginationItem>
+            <PaginationItem>3</PaginationItem>
+            <PaginationItem>4</PaginationItem>
+            <PaginationItem>5</PaginationItem>
+            <PaginationItem>6</PaginationItem>
+            <PaginationNextTrigger />
+          </Pagination>
+        )
+      }
+    ```
+  </Tabs.Tab>
+</Tabs>
+
+## Setup
+
+<Steps>
+
+### Import the component
+
+```tsx
+import {
+  Pagination,
+  PaginationItem,
+  PaginationNextTrigger,
+  PaginationPrevTrigger,
+} from "@nuvra-ui/react";
+```
+
+### Customize the component Style
+
+```tsx filename="PaginationDemo.tsx"
+import { Highlight } from "@nuvra-ui/react";
+
+export function PaginationDemo() {
+  return (
+    <Pagination>
+      <PaginationPrevTrigger className="bg-emerald-200" />
+      <PaginationItem className="bg-yellow-200">1</PaginationItem>
+      <PaginationItem className="bg-blue-200">2</PaginationItem>
+      <PaginationItem className="bg-pink-200">...</PaginationItem>
+      <PaginationItem className="bg-cyan-200">6</PaginationItem>
+      <PaginationItem className="bg-red-200">7</PaginationItem>
+      <PaginationNextTrigger className="bg-orange-200" />
+    </Pagination>
+  );
+}
+```
+
+### Preview the component
+
+<ComponentPreview>
+  <Pagination>
+    <PaginationPrevTrigger className="bg-emerald-200" />
+    <PaginationItem className="bg-yellow-200">1</PaginationItem>
+    <PaginationItem className="bg-blue-200">2</PaginationItem>
+    <PaginationItem className="bg-pink-200">...</PaginationItem>
+    <PaginationItem className="bg-cyan-200">6</PaginationItem>
+    <PaginationItem className="bg-red-200">7</PaginationItem>
+    <PaginationNextTrigger className="bg-orange-200" />
+  </Pagination>
+</ComponentPreview>
+
+</Steps>
