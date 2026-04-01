@@ -9,3 +9,4 @@ export { Tooltip } from "./components/Tooltip/Tooltip";
 export { Highlight } from "./components/Highlight/Highlight";
 export * from "./components/Card/Card";
 export * from "./components/Breadcrumb/Breadcrumb";
+export * from "./components/Pagination/Pagination";
