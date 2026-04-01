@@ -1,5 +1,12 @@
 # @nuvra-ui/docs
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies [[`2d6a6c8`](https://github.com/nuvra-ui/Nuvra-UI/commit/2d6a6c84085c76ef69188d9260513359b0ada4b8)]:
+  - @nuvra-ui/react@0.0.17
+
 ## 0.0.6
 
 ### Patch Changes
